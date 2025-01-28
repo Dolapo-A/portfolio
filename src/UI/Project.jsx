@@ -15,7 +15,7 @@ const Project = ({ image, title, description, tags, links=[] }) => {
 					{tags.map((tag, index) => (
 						<span
 							key={index}
-							className="font-manrope text-grayLight px-1 py-1 rounded-md text-xs/none border"
+							className="font-manrope text-gray px-1 py-1 rounded-md text-xs/none border"
 						>
 							{tag}
 						</span>
