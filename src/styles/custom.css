@@ -75,6 +75,16 @@
 	z-index: 2;
 }
 
+.footer-border-top{
+	border-top: 2px solid;
+	border-image: radial-gradient(circle, #00c7bd, transparent) 1;
+}
+
+.footer-border-top-mini{
+	border-top: 2px solid;
+	border-image: radial-gradient(circle, #00c7bd, #00c7bd, transparent, transparent) 1;
+}
+
 .grid-background > * {
 	position: relative;
 	z-index: 1;

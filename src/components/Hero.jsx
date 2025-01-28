@@ -1,8 +1,6 @@
 import "../styles/custom.css";
 import { Button } from "@/components/ui/button";
-import githubIcon from "../assets/icons/github-original.svg";
-import linkedinIcon from "../assets/icons/linkedin-plain.svg";
-import xIcon from "../assets/icons/X.svg";
+import Sociallinks from "../UI/Sociallinks";
 
 const Hero = () => {
 	return (
@@ -19,17 +17,7 @@ const Hero = () => {
 					solutions, combining clean code with intuitive design to build
 					memorable web and mobile experiences.
 				</p>
-				<div className="flex gap-4 mt-4">
-					<a href="#">
-						<img src={githubIcon} alt="" />
-					</a>
-					<a href="#">
-						<img src={linkedinIcon} alt="" />
-					</a>
-					<a href="#">
-						<img src={xIcon} alt="" />
-					</a>
-				</div>
+				<Sociallinks/>
 
 				<Button effect="shine" className="mt-6">View Projects</Button>
 			</div>
