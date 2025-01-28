@@ -41,7 +41,7 @@ const Testimonials = () => {
 		},
 	];
 	return (
-		<section className="py-24 bg-gray-800 grid-background">
+		<section className="py-24 bg-gray-800 dotted-background">
 			<div className="max-w-7xl mx-auto">
 				<div className="mb-10 text-center">
 					<div className="flex gap-2 justify-center">

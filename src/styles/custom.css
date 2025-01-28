@@ -29,6 +29,7 @@
 	/* mix-blend-mode:overlay; */
 	pointer-events: none; /* Ensure the overlay does not interfere with interactions */
 	z-index: 0;
+	animation: glow-dots 4s infinite ;
 }
 
 .grid-background::before {
@@ -43,6 +44,31 @@
 	/* mix-blend-mode:overlay; */
 	pointer-events: none; /* Ensure the overlay does not interfere with interactions */
 	z-index: 0;
+}
+
+@keyframes glow-dots {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+/* Keyframes for lines glow */
+@keyframes glow-lines {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1; /* Fully visible glow */
+	}
+	100% {
+		opacity: 0;
+	}
 }
 
 .carousel-gradient::before,
@@ -75,14 +101,21 @@
 	z-index: 2;
 }
 
-.footer-border-top{
+.footer-border-top {
 	border-top: 2px solid;
 	border-image: radial-gradient(circle, #00c7bd, transparent) 1;
 }
 
-.footer-border-top-mini{
+.footer-border-top-mini {
 	border-top: 2px solid;
-	border-image: radial-gradient(circle, #00c7bd, #00c7bd, transparent, transparent) 1;
+	border-image: radial-gradient(
+			circle,
+			#00c7bd,
+			#00c7bd,
+			transparent,
+			transparent
+		)
+		1;
 }
 
 .grid-background > * {
