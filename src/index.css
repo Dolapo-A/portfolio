@@ -1,0 +1,68 @@
+@import './styles/custom.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+	font-family: "Clash Display";
+	src: url("./assets/fonts/ClashDisplay-Medium.otf") format("opentype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Manrope";
+	src: url("./assets/fonts/Manrope-Regular.otf") format("opentype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Manrope";
+	src: url("./assets/fonts/Manrope-Medium.otf") format("opentype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Manrope";
+	src: url("./assets/fonts/Manrope-Bold.otf") format("opentype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+:root {
+	font-family: "Manrope", sans-serif;
+	line-height: 2.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #0a0a0a;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	place-items: center;
+	min-width: 320px;
+	min-height: 100vh;
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+}
+
+@layer base {
+  :root {
+		--radius: 0.5rem;
+	}
+}

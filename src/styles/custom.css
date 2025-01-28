@@ -1,0 +1,57 @@
+.dotted-background {
+	position: relative;
+	background-image: radial-gradient(circle, #00c7bd7f 1px, #0a0a0a00 1px);
+	background-size: 25px 25px;
+	transition: background-size 0.3s ease;
+}
+
+.grid-background{
+	position: relative;
+	background-image: linear-gradient(90deg, #00c7bd7f 1px, #0a0a0a00 1px),
+		linear-gradient(0deg, #00c7bd7f 1px, #0a0a0a00 1px);
+	background-size: 25px 25px;
+	transition: background-size 0.3s ease;
+}
+
+.dotted-background::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:
+		linear-gradient(0deg, #0a0a0a, #0a0a0a00, #0a0a0a);
+	/* mix-blend-mode:overlay; */
+	pointer-events: none; /* Ensure the overlay does not interfere with interactions */
+	z-index: 0;
+}
+
+
+.grid-background::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:
+		linear-gradient(0deg, #0a0a0a, #0a0a0a00, #0a0a0a),
+		radial-gradient(circle, #0a0a0a00, #0a0a0a)
+		;
+	/* mix-blend-mode:overlay; */
+	pointer-events: none; /* Ensure the overlay does not interfere with interactions */
+	z-index: 0;
+}
+
+.grid-background > * {
+	position: relative;
+	z-index: 1;
+}
+
+.dotted-background > * {
+	position: relative;
+	z-index: 1;
+}
+
+
