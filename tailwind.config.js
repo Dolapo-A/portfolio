@@ -13,7 +13,7 @@ export default {
 				grayLight: "#d4d4d4",
 				darkblue: "#0e3c5a",
 				background: "#0a0a0a",
-				darkGray: "#171717",
+				darkGray: "#27272a",
 			},
 			keyframes: {
 				shine: {

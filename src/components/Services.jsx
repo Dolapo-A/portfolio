@@ -1,4 +1,5 @@
 import React from "react";
+import { Card, CardContent } from "@/components/ui/card";
 import developmentIcon from "../assets/icons/development.svg";
 import mobileIcon from "../assets/icons/mobile.svg";
 import verifiedIcon from "../assets/icons/verified.svg";
@@ -15,7 +16,8 @@ const Services = () => {
 					Here’s how I can help your business grow{" "}
 				</h2>
 				<div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-10">
-						<div className="border-2 border-primary p-5 bg-gray-700 rounded-2xl">
+					{/* <Card>
+						<CardContent>
 							<img className="" src={developmentIcon} alt="" />
 							<h3 className="font-manrope text-lg mt-4">Web Development</h3>
 							<p className="font-manrope text-grayLight text-sm/6 mt-2">
@@ -24,27 +26,38 @@ const Services = () => {
 								React, I build interactive web applications that engage users
 								and drive results.
 							</p>
-						</div>
-						<div className="border-2 border-primary p-5 bg-gray-700 rounded-2xl">
-							<img src={mobileIcon} alt="" />
-							<h3 className="font-manrope text-lg mt-4">Web Development</h3>
-							<p className="font-manrope text-grayLight text-sm/6 mt-2">
-								I create responsive, performance-driven websites that work
-								flawlessly across all devices. Using modern technologies like
-								React, I build interactive web applications that engage users
-								and drive results.
-							</p>
-						</div>
-						<div className="border-2 border-primary p-5 bg-gray-700 rounded-2xl">
-							<img src={verifiedIcon} alt="" />
-							<h3 className="font-manrope text-lg mt-4">Web Development</h3>
-							<p className="font-manrope text-grayLight text-sm/6 mt-2">
-								I create responsive, performance-driven websites that work
-								flawlessly across all devices. Using modern technologies like
-								React, I build interactive web applications that engage users
-								and drive results.
-							</p>
-						</div>
+						</CardContent>
+					</Card> */}
+					<div className="border-2 border-darkGray p-5 bg-gray-700 rounded-2xl">
+						<img className="" src={developmentIcon} alt="" />
+						<h3 className="font-manrope text-lg mt-4">Web Development</h3>
+						<p className="font-manrope text-grayLight text-sm/6 mt-2">
+							I create responsive, performance-driven websites that work
+							flawlessly across all devices. Using modern technologies like
+							React, I build interactive web applications that engage users and
+							drive results.
+						</p>
+					</div>
+					<div className="border-2 border-darkGray  p-5 bg-gray-700 rounded-2xl">
+						<img src={mobileIcon} alt="" />
+						<h3 className="font-manrope text-lg mt-4">Web Development</h3>
+						<p className="font-manrope text-grayLight text-sm/6 mt-2">
+							I create responsive, performance-driven websites that work
+							flawlessly across all devices. Using modern technologies like
+							React, I build interactive web applications that engage users and
+							drive results.
+						</p>
+					</div>
+					<div className="border-2 border-darkGray  p-5 bg-gray-700 rounded-2xl">
+						<img src={verifiedIcon} alt="" />
+						<h3 className="font-manrope text-lg mt-4">Web Development</h3>
+						<p className="font-manrope text-grayLight text-sm/6 mt-2">
+							I create responsive, performance-driven websites that work
+							flawlessly across all devices. Using modern technologies like
+							React, I build interactive web applications that engage users and
+							drive results.
+						</p>
+					</div>
 				</div>
 			</div>
 		</section>

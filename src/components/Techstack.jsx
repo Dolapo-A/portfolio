@@ -35,7 +35,13 @@ const TechStack = () => {
 					<h3 className="font-clash-display text-2xl text-orange-400 border-b-2 py-3">
 						FIREBASE
 					</h3>
-					<h3 className="font-clash-display text-2xl text-white border-b-2 py-3">GITHUB</h3>
+					<h3 className="font-clash-display text-2xl text-white border-b-2 py-3">
+						GITHUB
+					</h3>
+				</div>
+
+				<div className=" mb-10">
+					<h2 className="font-clash-display text-3xl">My Tech Stack</h2>
 				</div>
 			</div>
 		</section>
