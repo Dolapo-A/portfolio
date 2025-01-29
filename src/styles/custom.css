@@ -17,6 +17,10 @@
 	position: relative;
 }
 
+.card-gradient {
+	background: linear-gradient(135deg, #ffffff0a 5%, #0a0a0a , #ffffff0a 100%);
+}
+
 .dotted-background::before {
 	content: "";
 	position: absolute;
@@ -29,7 +33,7 @@
 	/* mix-blend-mode:overlay; */
 	pointer-events: none; /* Ensure the overlay does not interfere with interactions */
 	z-index: 0;
-	animation: glow-dots 4s infinite ;
+	animation: glow-dots 5s infinite ;
 }
 
 .grid-background::before {

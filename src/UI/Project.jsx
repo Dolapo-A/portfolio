@@ -5,8 +5,8 @@ import { ChevronRight } from "@untitled-ui/icons-react";
 const Project = ({ image, title, description, tags, links = [] }) => {
 	return (
 		<div className="flex gap-12 max-w-7xl border-2 border-darkGray p-4 rounded-2xl mt-9 bg-background">
-			<img className="w-1/4 h-full rounded-xl" src={image} alt={title} />
-			<div className="flex flex-col border-2 border-darkGray p-4 rounded-xl w-full justify-between bg-background">
+			<img className="w-1/4 h-60 rounded-xl" src={image} alt={title} />
+			<div className="flex flex-col border-2 border-darkGray p-4 rounded-xl w-full justify-between bg-background  card-gradient">
 				<h3 className="font-manrope font-bold text-2xl">{title}</h3>
 				<p className="font-manrope font-normal text-sm text-grayLight">
 					{description}

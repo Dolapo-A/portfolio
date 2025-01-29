@@ -7,6 +7,8 @@ import {
 	CarouselNext,
 	CarouselPrevious,
 } from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
+
 import Oyinimage from "../assets/images/oyin-araoye.jpg";
 
 const Testimonials = () => {
@@ -58,6 +60,11 @@ const Testimonials = () => {
 							align: "center",
 							loop: "true",
 						}}
+						plugins={[
+							Autoplay({
+								delay: 5000,
+							}),
+						]}
 						className="mx-auto "
 						orientation="horizontal"
 					>

@@ -28,7 +28,7 @@ const Services = () => {
 							</p>
 						</CardContent>
 					</Card> */}
-					<div className="border-2 border-darkGray p-5 bg-gray-700 rounded-2xl">
+					<div className="border-2 border-darkGray p-5 bg-gray-700 rounded-2xl card-gradient">
 						<img className="" src={developmentIcon} alt="" />
 						<h3 className="font-manrope text-lg mt-4">Web Development</h3>
 						<p className="font-manrope text-grayLight text-sm/6 mt-2">
@@ -38,7 +38,7 @@ const Services = () => {
 							drive results.
 						</p>
 					</div>
-					<div className="border-2 border-darkGray  p-5 bg-gray-700 rounded-2xl">
+					<div className="border-2 border-darkGray  p-5 bg-gray-700 rounded-2xl card-gradient">
 						<img src={mobileIcon} alt="" />
 						<h3 className="font-manrope text-lg mt-4">Web Development</h3>
 						<p className="font-manrope text-grayLight text-sm/6 mt-2">
@@ -48,7 +48,7 @@ const Services = () => {
 							drive results.
 						</p>
 					</div>
-					<div className="border-2 border-darkGray  p-5 bg-gray-700 rounded-2xl">
+					<div className="border-2 border-darkGray  p-5 bg-gray-700 rounded-2xl card-gradient">
 						<img src={verifiedIcon} alt="" />
 						<h3 className="font-manrope text-lg mt-4">Web Development</h3>
 						<p className="font-manrope text-grayLight text-sm/6 mt-2">
