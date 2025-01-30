@@ -1,12 +1,22 @@
 import React from "react";
 import Project from "../UI/project";
-import LarrymarkMockup from "../assets/images/larrymark-mockup.jpg";
-import OyinAraoyeMockup from "../assets/images/oyin-araoye.jpg";
-import GirlsLeadMockup from "../assets/images/girls-lead-mockup.jpg";
-import TlbEnergy from "../assets/images/tlbenergy-mockup.jpg";
-import WildOasisMockup from "../assets/images/wild-oasis.jpg";
-import XchangeRate from "../assets/images/xchange-rate-mockup.jpg";
-import QRcodeGenerator from "../assets/images/qrcodegenerator.jpg";
+import LarrymarkMockup from "../assets/images/jpg/larrymark-mockup.jpg";
+import OyinAraoyeMockup from "../assets/images/jpg/oyin-araoye.jpg";
+import GirlsLeadMockup from "../assets/images/jpg/girls-lead-mockup.jpg";
+import TlbEnergy from "../assets/images/jpg/tlbenergy-mockup.jpg";
+import WildOasisMockup from "../assets/images/jpg/wild-oasis.jpg";
+import XchangeRate from "../assets/images/jpg/xchange-rate-mockup.jpg";
+import QRcodeGenerator from "../assets/images/jpg/qrcodegenerator.jpg";
+
+import LarrymarkMockupwebp from "../assets/images/webp/larrymark-mockup.webp";
+import OyinAraoyeMockupwebp from "../assets/images/webp/oyin-araoye.webp";
+import GirlsLeadMockupwebp from "../assets/images/webp/girls-lead-mockup.webp";
+import TlbEnergywebp from "../assets/images/webp/tlbenergy-mockup.webp";
+import WildOasisMockupwebp from "../assets/images/webp/wild-oasis.webp";
+import XchangeRatewebp from "../assets/images/webp/xchange-rate-mockup.webp";
+import QRcodeGeneratorwebp from "../assets/images/webp/qrcodegenerator.webp";
+
+import { projects } from "../data/projectdata";
 
 const Projects = () => {
 	return (
@@ -24,15 +34,18 @@ const Projects = () => {
 					</h2>
 				</div>
 				<Project
-					image={LarrymarkMockup}
-					title="Larrymark International"
-					tags={["HTML", "CSS", "JavaScript"]}
-					description="This is a description for project 1"
-					links={[{ name: "Live site", url: "#" }]}
-					link={["google.com", "hello.com"]}
+					id={projects[0].id}
+					webpImage={projects[0].webpImage}
+					jpgImage={projects[0].jpgImage}
+					title={projects[0].title}
+					tags={projects[0].tags}
+					description={projects[0].description}
+					links={projects[0].links}
 				/>
 				<Project
-					image={OyinAraoyeMockup}
+					id={projects[0].id}
+					webpImage={OyinAraoyeMockupwebp}
+					jpgImage={OyinAraoyeMockup}
 					title={
 						<>
 							Oyin Araoye <sup className="text-xs">TM</sup>
@@ -42,14 +55,18 @@ const Projects = () => {
 					description="This is a description for project 1"
 				/>
 				<Project
-					image={GirlsLeadMockup}
+					id={projects[0].id}
+					webpImage={GirlsLeadMockupwebp}
+					jpgImage={GirlsLeadMockup}
 					title="Girls Lead"
 					tags={["Framer"]}
 					description="This is a description for project 1"
 					links={[{ name: "Live site", url: "#" }]}
 				/>
 				<Project
-					image={TlbEnergy}
+					id={projects[0].id}
+					webpImage={TlbEnergywebp}
+					jpgImage={TlbEnergy}
 					title="TLB Energy"
 					tags={["HTML", "CSS", "JavaScript"]}
 					description="This is a description for project 1"
@@ -59,7 +76,9 @@ const Projects = () => {
 					<h2 className="font-clash-display text-3xl">Side projects</h2>
 				</div>
 				<Project
-					image={WildOasisMockup}
+					id={projects[0].id}
+					webpImage={WildOasisMockupwebp}
+					jpgImage={WildOasisMockup}
 					title="The wild Oasis"
 					tags={["ReactJS", "Styled-Components", "Supabase"]}
 					description="This is a description for project 1"
@@ -69,7 +88,9 @@ const Projects = () => {
 					]}
 				/>
 				<Project
-					image={XchangeRate}
+					id={projects[0].id}
+					webpImage={XchangeRatewebp}
+					jpgImage={XchangeRate}
 					title="Xchange Rate"
 					tags={["ReactJS", "Tailwind", "NodeJS"]}
 					description="This is a description for project 1"
@@ -79,7 +100,9 @@ const Projects = () => {
 					]}
 				/>
 				<Project
-					image={QRcodeGenerator}
+					id={projects[0].id}
+					webpImage={QRcodeGeneratorwebp}
+					jpgImage={QRcodeGenerator}
 					title="QRCode Generator"
 					tags={["Flutter", "Dart"]}
 					description="This is a description for project 1"

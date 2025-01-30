@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 
-import Oyinimage from "../assets/images/oyin-araoye.jpg";
+import Oyinimage from "../assets/images/jpg/oyin-araoye.jpg";
 
 const Testimonials = () => {
 	const testimonials = [
