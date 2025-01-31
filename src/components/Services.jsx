@@ -6,56 +6,60 @@ import verifiedIcon from "../assets/icons/verified.svg";
 
 const Services = () => {
 	return (
-		<section className="py-24 bg-gray-800 bg-background">
-			<div className="max-w-7xl mx-auto">
+		<section className="py-16 sm:py-24 bg-gray-800 bg-background">
+			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="flex gap-2">
-					<h2 className="text-4xl">*</h2>
-					<h2 className="font-clash-display text-lg text-primary">Services</h2>
+					<h2 className="text-3xl sm:text-4xl">*</h2>
+					<h2 className="font-clash-display text-base sm:text-lg text-primary">
+						Services
+					</h2>
 				</div>
-				<h2 className="font-clash-display text-3xl">
-					Here’s how I can help your business grow{" "}
+				<h2 className="font-clash-display text-2xl sm:text-3xl">
+					Here’s how I can help your business grow
 				</h2>
-				<div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-10">
-					{/* <Card>
-						<CardContent>
-							<img className="" src={developmentIcon} alt="" />
-							<h3 className="font-manrope text-lg mt-4">Web Development</h3>
-							<p className="font-manrope text-grayLight text-sm/6 mt-2">
-								I create responsive, performance-driven websites that work
-								flawlessly across all devices. Using modern technologies like
-								React, I build interactive web applications that engage users
-								and drive results.
-							</p>
-						</CardContent>
-					</Card> */}
-					<div className="border border-darkGray p-5 bg-gray-700 rounded-2xl card-gradient">
-						<img className="" src={developmentIcon} alt="" />
-						<h3 className="font-manrope text-lg mt-4">Web Development</h3>
-						<p className="font-manrope text-grayLight text-sm/6 mt-2">
-							I create responsive, performance-driven websites that work
-							flawlessly across all devices. Using modern technologies like
-							React, I build interactive web applications that engage users and
-							drive results.
+				<div className="mt-8 sm:mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-10">
+					<div className="border border-darkGray p-4 sm:p-5 lg:p-6 bg-gray-700 rounded-2xl card-gradient">
+						<img
+							className="w-12 h-12 sm:w-16 sm:h-16"
+							src={developmentIcon}
+							alt="Web Development"
+						/>
+						<h3 className="font-manrope text-lg sm:text-xl mt-4">
+							Web Development
+						</h3>
+						<p className="font-manrope text-sm sm:text-base text-grayLight mt-2">
+							I craft unique visual identities and brand experiences to help
+							businesses stand out online, focusing on meaningful audience
+							connections.
 						</p>
 					</div>
-					<div className="border border-darkGray  p-5 bg-gray-700 rounded-2xl card-gradient">
-						<img src={mobileIcon} alt="" />
-						<h3 className="font-manrope text-lg mt-4">Web Development</h3>
-						<p className="font-manrope text-grayLight text-sm/6 mt-2">
-							I create responsive, performance-driven websites that work
-							flawlessly across all devices. Using modern technologies like
-							React, I build interactive web applications that engage users and
-							drive results.
+					<div className="border border-darkGray p-4 sm:p-5 lg:p-6 bg-gray-700 rounded-2xl card-gradient">
+						<img
+							className="w-12 h-12 sm:w-16 sm:h-16"
+							src={mobileIcon}
+							alt="Mobile Development"
+						/>
+						<h3 className="font-manrope text-lg sm:text-xl mt-4">
+							Mobile Development
+						</h3>
+						<p className="font-manrope text-sm sm:text-base text-grayLight mt-2">
+							Elevate your digital presence with custom Flutter apps, offering
+							native-like experiences for iOS and Android.
 						</p>
 					</div>
-					<div className="border border-darkGray  p-5 bg-gray-700 rounded-2xl card-gradient">
-						<img src={verifiedIcon} alt="" />
-						<h3 className="font-manrope text-lg mt-4">Web Development</h3>
-						<p className="font-manrope text-grayLight text-sm/6 mt-2">
-							I create responsive, performance-driven websites that work
-							flawlessly across all devices. Using modern technologies like
-							React, I build interactive web applications that engage users and
-							drive results.
+					<div className="border border-darkGray p-4 sm:p-5 lg:p-6 bg-gray-700 rounded-2xl card-gradient">
+						<img
+							className="w-12 h-12 sm:w-16 sm:h-16"
+							src={verifiedIcon}
+							alt="Brand Design"
+						/>
+						<h3 className="font-manrope text-lg sm:text-xl mt-4">
+							Brand Design
+						</h3>
+						<p className="font-manrope text-sm sm:text-base text-grayLight mt-2">
+							I craft unique visual identities and brand experiences to help
+							businesses stand out online, focusing on meaningful audience
+							connections.
 						</p>
 					</div>
 				</div>

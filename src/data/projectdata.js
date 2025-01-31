@@ -25,12 +25,10 @@ export const projects = [
 		webpImage: LarrymarkMockupwebp,
 		jpgImage: LarrymarkMockup,
 		description: "Detailed description...",
-		fullDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae dignissim neque. Pellentesque ultricies nisi sed bibendum dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut lobortis nibh sit amet semper vulputate. Pellentesque porttitor, eros egestas efficitur rhoncus, ligula orci consectetur augue, id interdum lacus ipsum at velit. Phasellus imperdiet in purus efficitur pulvinar. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc non purus dictum, rhoncus leo eget, lacinia odio. Morbi quam felis, faucibus sit amet nulla in, hendrerit dignissim tellus. Vestibulum ultricies pellentesque turpis ac placerat. Ut ullamcorper ligula eleifend, suscipit ante id, efficitur lacus. Sed quis congue massa, eget fringilla nunc. Ut quis consectetur purus, sit amet scelerisque tellus. Proin ullamcorper turpis in ipsum convallis faucibus. Phasellus magna ipsum, cursus vitae tellus in, suscipit suscipit dui. Fusce faucibus tortor eu vehicula interdum.",
+		fullDescription:
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae dignissim neque. Pellentesque ultricies nisi sed bibendum dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut lobortis nibh sit amet semper vulputate. Pellentesque porttitor, eros egestas efficitur rhoncus, ligula orci consectetur augue, id interdum lacus ipsum at velit. Phasellus imperdiet in purus efficitur pulvinar. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc non purus dictum, rhoncus leo eget, lacinia odio. Morbi quam felis, faucibus sit amet nulla in, hendrerit dignissim tellus. Vestibulum ultricies pellentesque turpis ac placerat. Ut ullamcorper ligula eleifend, suscipit ante id, efficitur lacus. Sed quis congue massa, eget fringilla nunc. Ut quis consectetur purus, sit amet scelerisque tellus. Proin ullamcorper turpis in ipsum convallis faucibus. Phasellus magna ipsum, cursus vitae tellus in, suscipit suscipit dui. Fusce faucibus tortor eu vehicula interdum.",
 		tags: ["HTML", "CSS", "JavaScript"],
-		links: [
-			{ name: "GitHub", url: "..." },
-			{ name: "Live", url: "..." },
-		],
+		links: [{ name: "Live", url: "https://www.larrymarkintl.com/" }],
 		challenges: "Description of challenges...",
 		solutions: "How problems were solved...",
 		techStack: ["HTML", "CSS", "JavaScript"],
@@ -66,9 +64,7 @@ export const projects = [
 		description: "Detailed description...",
 		fullDescription: "More detailed content for the project page...",
 		tags: ["Framer"],
-		links: [
-			{ name: "Live", url: "..." },
-		],
+		links: [{ name: "Live", url: "https://girlslead.framer.website/" }],
 		challenges: "Description of challenges...",
 		solutions: "How problems were solved...",
 		techStack: ["Framer"],
@@ -86,17 +82,14 @@ export const projects = [
 		description: "Detailed description...",
 		fullDescription: "More detailed content for the project page...",
 		tags: ["HTML", "CSS", "JavaScript"],
-		links: [
-			{ name: "GitHub", url: "..." },
-			{ name: "Live", url: "..." },
-		],
+		links: [{ name: "Live", url: "https://tlbenergy.netlify.app/" }],
 		challenges: "Description of challenges...",
 		solutions: "How problems were solved...",
 		techStack: ["HTML", "CSS", "JavaScript"],
 		outcome: "Project results and impact...",
 	},
 
-  // side projects
+	// side projects
 	{
 		id: "wild_oasis",
 		title: "The Wild Oasis",
@@ -109,8 +102,11 @@ export const projects = [
 		fullDescription: "More detailed content for the project page...",
 		tags: ["React", "Styled Components", "Supabase", "React Query"],
 		links: [
-			{ name: "GitHub", url: "..." },
-			{ name: "Live", url: "..." },
+			{
+				name: "Repository",
+				url: "https://github.com/Dolapo-A/hotel-management-system",
+			},
+			{ name: "Live", url: "https://wild-oasis-admin-lovat.vercel.app/login" },
 		],
 		challenges: "Description of challenges...",
 		solutions: "How problems were solved...",
@@ -123,15 +119,15 @@ export const projects = [
 		title: "Xchange Rate",
 		clientName: "Personal Project",
 		ProjectType: "Web Development",
-		projectYear: "2021",
+		projectYear: "2024",
 		webpImage: XchangeRatewebp,
 		jpgImage: XchangeRate,
 		description: "Detailed description...",
 		fullDescription: "More detailed content for the project page...",
 		tags: ["ReactJS", "Tailwind CSS", "NodeJS"],
 		links: [
-			{ name: "GitHub", url: "..." },
-			{ name: "Live", url: "..." },
+			{ name: "Repository", url: "https://github.com/Dolapo-A/currency-exchange-app" },
+			{ name: "Live", url: "https://currency-exchange-app-alpha.vercel.app/" },
 		],
 		challenges: "Description of challenges...",
 		solutions: "How problems were solved...",
@@ -150,9 +146,7 @@ export const projects = [
 		description: "Detailed description...",
 		fullDescription: "More detailed content for the project page...",
 		tags: ["Flutter", "Dart"],
-		links: [
-			{ name: "GitHub", url: "..." },
-		],
+		links: [{ name: "Repository", url: "https://github.com/Dolapo-A/qrcodegenerator" }],
 		challenges: "Description of challenges...",
 		solutions: "How problems were solved...",
 		techStack: ["Flutter", "Dart"],

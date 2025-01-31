@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Button } from "@/components/ui/button";
-import { ChevronRight } from "@untitled-ui/icons-react";
+import { ChevronRight } from "lucide-react";
 import { Link } from "react-router";
 
 const Project = ({
@@ -58,7 +58,13 @@ const Project = ({
 								variant="link"
 								effect="hoverUnderline"
 							>
-								<a href={linkItem.url}>{linkItem.name}</a>
+								<a
+									target="_blank"
+									rel="noopener noreferrer"
+									href={linkItem.url}
+								>
+									{linkItem.name}
+								</a>
 							</Button>
 						))}
 					</div>

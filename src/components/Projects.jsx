@@ -1,12 +1,12 @@
 import React from "react";
-import Project from "../UI/project";
+import Project from "../UI/Project";
 
 import { projects } from "../data/projectdata";
 
 const Projects = () => {
 	return (
-		<section className="py-24 bg-gray-800 bg-background dotted-background">
-			<div className="max-w-7xl mx-auto">
+		<section className="md:py-24 md:px-6 bg-gray-800 bg-background dotted-background">
+			<div className="max-w-7xl  px-4 sm:px-6 lg:px-8 mx-auto">
 				<div className=" mb-10">
 					<div className="flex gap-2">
 						<h2 className="text-4xl">*</h2>
