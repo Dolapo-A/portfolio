@@ -4,7 +4,7 @@ import Sociallinks from "../UI/Sociallinks";
 
 const Footer = () => {
 	return (
-		<footer className="py-16 sm:py-24 bg-gray-800 footer-border-top">
+		<footer className="pt-16 sm:pt-24 bg-gray-800 footer-border-top">
 			<div className="max-w-7xl mx-auto text-center flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
 				<h2 className="font-clash-display text-2xl sm:text-3xl">
 					Dolapo Araoye

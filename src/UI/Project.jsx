@@ -13,48 +13,49 @@ const Project = ({
 	links = [],
 }) => {
 	return (
-		<div className="flex gap-12 max-w-7xl border border-darkGray p-4 rounded-2xl mt-9 bg-background">
+		<div className="flex flex-col  lg:flex-row gap-8 max-w-7xl border border-darkGray p-4 rounded-2xl mt-9 bg-background">
 			<picture>
 				<source srcSet={webpImage} type="image/webp" />
 				<img
-					className="w-96 h-64 object-cover border border-darkGray rounded-xl"
+					className="aspect-video lg:w-96 lg:h-64  object-cover border border-darkGray rounded-xl"
 					src={jpgImage}
 					alt={title}
 				/>
 			</picture>
-			<div className="flex flex-col border border-darkGray p-4 rounded-xl w-full justify-between bg-background  card-gradient">
-				<h3 className="font-manrope font-bold text-2xl">{title}</h3>
-				<p className="font-manrope font-normal text-sm text-grayLight">
+			<div className="flex lg:justify-between grow flex-col border border-darkGray p-4 lg:p-6 rounded-xl w-full bg-background card-gradient">
+				<h3 className="font-bold text-xl sm:text-2xl">{title}</h3>
+				<p className="font-normal text-sm sm:text-base text-grayLight mt-6">
 					{description}
 				</p>
-				<div className="flex gap-1">
-					<span className="text-xs/none p-1">Tools : </span>
+				<div className="flex gap-2 sm:gap-4 mt-6">
+					<span className="text-xs sm:text-sm font-medium">Tools : </span>
 					<div className="flex gap-2">
 						{tags.map((tag, index) => (
 							<span
 								key={index}
-								className="text-gray p-1 rounded-md text-xs/none"
+								className="text-xs sm:text-sm text-gray"
 							>
 								{tag}
 							</span>
 						))}
 					</div>
 				</div>
-				<div className="flex justify-between">
+				<div className="flex flex-col justify-between mt-6 sm:flex-row">
 					<Link to={`/project/${id}`}>
 						<Button
 							effect="expandIcon"
 							icon={ChevronRight}
 							iconPlacement="right"
+							className=" sm:w-auto"
 						>
 							View project
 						</Button>
 					</Link>
-					<div className="flex gap-2">
+					<div className="flex gap-2 mt-4 sm:mt-0">
 						{links.map((linkItem, index) => (
 							<Button
 								key={index}
-								className="text-white"
+								className="text-white text-xs sm:text-sm py-0 px-0"
 								variant="link"
 								effect="hoverUnderline"
 							>

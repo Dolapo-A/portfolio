@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import { BrowserRouter, Route, Routes } from "react-router";
 import ProjectPage from "./pages/ProjectPage";
 import ScrollToTop from "./Scolltotop";
+import Navbar from "./components/Navbar";
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 						path="/"
 						element={
 							<>
+								<Navbar/>
 								<Hero />
 								<Services />
 								<Projects />

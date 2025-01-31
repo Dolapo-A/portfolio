@@ -12,7 +12,7 @@ import { testimonials } from "../data/testimonialdata";
 
 const Testimonials = () => {
 	return (
-		<section className="py-16 sm:py-24 bg-gray-800 dotted-background">
+		<section className="py-16 sm:py-24 bg-gray-800">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="mb-8 sm:mb-10 text-center">
 					<div className="flex gap-2 justify-center">
@@ -23,7 +23,7 @@ const Testimonials = () => {
 					</div>
 					<h2 className="font-clash-display text-3xl">What Clients Say</h2>
 				</div>
-				<div className="carousel-gradient relative py-8 sm:py-10">
+				<div className="carousel-gradient relative py-8 sm:py-10 w-full">
 					<Carousel
 						opts={{
 							align: "center",
@@ -49,8 +49,8 @@ const Testimonials = () => {
 								</CarouselItem>
 							))}
 						</CarouselContent>
-						<CarouselPrevious className="" />
-						<CarouselNext />
+						{/* <CarouselPrevious className="" />
+						<CarouselNext /> */}
 					</Carousel>
 				</div>
 			</div>

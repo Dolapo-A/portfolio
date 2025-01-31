@@ -6,7 +6,7 @@ const Hero = () => {
 	return (
 		<section className="py-16 sm:py-24 lg:py-32 w-full flex flex-col items-center justify-center min-h-screen text-white text-center dotted-background px-4 sm:px-6 lg:px-8">
 			<div className="bg-transparent flex flex-col items-center">
-				<p className="border-2 border-primary font-clash-display text-sm sm:text-base bg-white text-background px-3 py-1 sm:px-4 sm:py-2 rounded-2xl mb-3">
+				<p className="border-2 border-primary font-clash-display text-sm sm:text-base bg-white text-background px-4 rounded-2xl mb-3">
 					Front end developer & Brand designer
 				</p>
 				<h1 className="font-clash-display text-2xl sm:text-3xl lg:text-4xl font-bold">
