@@ -1,20 +1,5 @@
 import React from "react";
 import Project from "../UI/project";
-import LarrymarkMockup from "../assets/images/jpg/larrymark-mockup.jpg";
-import OyinAraoyeMockup from "../assets/images/jpg/oyin-araoye.jpg";
-import GirlsLeadMockup from "../assets/images/jpg/girls-lead-mockup.jpg";
-import TlbEnergy from "../assets/images/jpg/tlbenergy-mockup.jpg";
-import WildOasisMockup from "../assets/images/jpg/wild-oasis.jpg";
-import XchangeRate from "../assets/images/jpg/xchange-rate-mockup.jpg";
-import QRcodeGenerator from "../assets/images/jpg/qrcodegenerator.jpg";
-
-import LarrymarkMockupwebp from "../assets/images/webp/larrymark-mockup.webp";
-import OyinAraoyeMockupwebp from "../assets/images/webp/oyin-araoye.webp";
-import GirlsLeadMockupwebp from "../assets/images/webp/girls-lead-mockup.webp";
-import TlbEnergywebp from "../assets/images/webp/tlbenergy-mockup.webp";
-import WildOasisMockupwebp from "../assets/images/webp/wild-oasis.webp";
-import XchangeRatewebp from "../assets/images/webp/xchange-rate-mockup.webp";
-import QRcodeGeneratorwebp from "../assets/images/webp/qrcodegenerator.webp";
 
 import { projects } from "../data/projectdata";
 
@@ -43,70 +28,60 @@ const Projects = () => {
 					links={projects[0].links}
 				/>
 				<Project
-					id={projects[0].id}
-					webpImage={OyinAraoyeMockupwebp}
-					jpgImage={OyinAraoyeMockup}
-					title={
-						<>
-							Oyin Araoye <sup className="text-xs">TM</sup>
-						</>
-					}
-					tags={["Brand Design", "Illustrator", "Figma"]}
-					description="This is a description for project 1"
+					id={projects[1].id}
+					webpImage={projects[1].webpImage}
+					jpgImage={projects[1].jpgImage}
+					title={projects[1].title}
+					tags={projects[1].tags}
+					description={projects[1].description}
 				/>
 				<Project
-					id={projects[0].id}
-					webpImage={GirlsLeadMockupwebp}
-					jpgImage={GirlsLeadMockup}
-					title="Girls Lead"
-					tags={["Framer"]}
-					description="This is a description for project 1"
-					links={[{ name: "Live site", url: "#" }]}
+					id={projects[2].id}
+					webpImage={projects[2].webpImage}
+					jpgImage={projects[2].jpgImage}
+					title={projects[2].title}
+					tags={projects[2].tags}
+					description={projects[2].description}
+					links={projects[2].links}
 				/>
 				<Project
-					id={projects[0].id}
-					webpImage={TlbEnergywebp}
-					jpgImage={TlbEnergy}
-					title="TLB Energy"
-					tags={["HTML", "CSS", "JavaScript"]}
-					description="This is a description for project 1"
-					links={[{ name: "Live site", url: "#" }]}
+					id={projects[3].id}
+					webpImage={projects[3].webpImage}
+					jpgImage={projects[3].jpgImage}
+					title={projects[3].title}
+					tags={projects[3].tags}
+					description={projects[3].description}
+					links={projects[3].links}
 				/>
 				<div className=" mt-10">
 					<h2 className="font-clash-display text-3xl">Side projects</h2>
 				</div>
 				<Project
-					id={projects[0].id}
-					webpImage={WildOasisMockupwebp}
-					jpgImage={WildOasisMockup}
-					title="The wild Oasis"
-					tags={["ReactJS", "Styled-Components", "Supabase"]}
-					description="This is a description for project 1"
-					links={[
-						{ name: "Live site", url: "#" },
-						{ name: "Repo", url: "#" },
-					]}
+					id={projects[4].id}
+					webpImage={projects[4].webpImage}
+					jpgImage={projects[4].jpgImage}
+					title={projects[4].title}
+					tags={projects[4].tags}
+					description={projects[4].description}
+					links={projects[4].links}
 				/>
 				<Project
-					id={projects[0].id}
-					webpImage={XchangeRatewebp}
-					jpgImage={XchangeRate}
-					title="Xchange Rate"
-					tags={["ReactJS", "Tailwind", "NodeJS"]}
-					description="This is a description for project 1"
-					links={[
-						{ name: "Live site", url: "#" },
-						{ name: "Repo", url: "#" },
-					]}
+					id={projects[5].id}
+					webpImage={projects[5].webpImage}
+					jpgImage={projects[5].jpgImage}
+					title={projects[5].title}
+					tags={projects[5].tags}
+					description={projects[5].description}
+					links={projects[5].links}
 				/>
 				<Project
-					id={projects[0].id}
-					webpImage={QRcodeGeneratorwebp}
-					jpgImage={QRcodeGenerator}
-					title="QRCode Generator"
-					tags={["Flutter", "Dart"]}
-					description="This is a description for project 1"
-					links={[{ name: "Repo", url: "#" }]}
+					id={projects[6].id}
+					webpImage={projects[6].webpImage}
+					jpgImage={projects[6].jpgImage}
+					title={projects[6].title}
+					tags={projects[6].tags}
+					description={projects[6].description}
+					links={projects[6].links}
 				/>
 			</div>
 		</section>

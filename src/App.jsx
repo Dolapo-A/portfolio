@@ -8,11 +8,13 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { BrowserRouter, Route, Routes } from "react-router";
 import ProjectPage from "./pages/ProjectPage";
+import ScrollToTop from "./Scolltotop";
 
 function App() {
 	return (
 		<>
 			<BrowserRouter>
+				<ScrollToTop />
 				<Routes>
 					<Route
 						path="/"
