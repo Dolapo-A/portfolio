@@ -42,11 +42,11 @@ const TechStack = () => {
 					</h3>
 				</div>
 
-				<div className="mt-8 sm:mt-10">
+				{/* <div className="mt-8 sm:mt-10">
 					<h2 className="font-clash-display text-2xl sm:text-3xl">
 						My Tech Stack
 					</h2>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	);

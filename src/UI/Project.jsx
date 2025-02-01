@@ -51,7 +51,7 @@ const Project = ({
 							View project
 						</Button>
 					</Link>
-					<div className="flex gap-2 mt-4 sm:mt-0">
+					<div className="flex gap-5 mt-4 sm:mt-0">
 						{links.map((linkItem, index) => (
 							<Button
 								key={index}
