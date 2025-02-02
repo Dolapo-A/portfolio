@@ -1,4 +1,3 @@
-import React from "react";
 import TestimonialCard from "../UI/TestimonialCard";
 import {
 	Carousel,
@@ -12,7 +11,7 @@ import { testimonials } from "../data/testimonialdata";
 
 const Testimonials = () => {
 	return (
-		<section className="py-16 sm:py-24 bg-gray-800">
+		<section className="py-16 sm:py-24 bg-gray-800" id="testimonials">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="mb-8 sm:mb-10 text-center">
 					<div className="flex gap-2 justify-center">

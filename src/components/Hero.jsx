@@ -4,7 +4,7 @@ import Sociallinks from "../UI/Sociallinks";
 
 const Hero = () => {
 	return (
-		<section className="py-16 sm:py-24 lg:py-32 w-full flex flex-col items-center justify-center min-h-screen text-white text-center dotted-background px-4 sm:px-6 lg:px-8">
+		<section className="py-16 sm:py-24 lg:py-32 w-full flex flex-col items-center justify-center min-h-screen text-white text-center dotted-background px-4 sm:px-6 lg:px-8" id="hero">
 			<div className="bg-transparent flex flex-col items-center">
 				<p className="border-2 border-primary font-clash-display text-sm sm:text-base bg-white text-background px-4 rounded-2xl mb-3">
 					Front end developer & Brand designer

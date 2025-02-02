@@ -10,8 +10,18 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import ProjectPage from "./pages/ProjectPage";
 import ScrollToTop from "./Scolltotop";
 import Navbar from "./components/Navbar";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+	useEffect(() => {
+		AOS.init({
+			duration: 1000,
+			// once: true,
+		});
+	}, []);
+
 	return (
 		<>
 			<BrowserRouter>
@@ -21,7 +31,7 @@ function App() {
 						path="/"
 						element={
 							<>
-								<Navbar/>
+								<Navbar />
 								<Hero />
 								<Services />
 								<Projects />

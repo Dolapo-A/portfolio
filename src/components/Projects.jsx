@@ -5,7 +5,7 @@ import { projects } from "../data/projectdata";
 
 const Projects = () => {
 	return (
-		<section className="md:py-24 md:px-6 bg-gray-800 bg-background dotted-background">
+		<section className="md:py-24 md:px-6 bg-gray-800 bg-background dotted-background" id="projects">
 			<div className="max-w-7xl  px-4 sm:px-6 lg:px-8 mx-auto">
 				<div className=" mb-10">
 					<div className="flex gap-2">

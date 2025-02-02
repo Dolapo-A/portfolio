@@ -13,7 +13,10 @@ const Project = ({
 	links = [],
 }) => {
 	return (
-		<div className="flex flex-col  lg:flex-row gap-8 max-w-7xl border border-darkGray p-4 rounded-2xl mt-9 bg-background">
+		<div
+			className="flex flex-col  lg:flex-row gap-8 max-w-7xl border border-darkGray p-4 rounded-2xl mt-9 bg-background"
+			data-aos="fade-up"
+		>
 			<picture>
 				<source srcSet={webpImage} type="image/webp" />
 				<img
@@ -31,10 +34,7 @@ const Project = ({
 					<span className="text-xs sm:text-sm font-medium">Tools : </span>
 					<div className="flex gap-2">
 						{tags.map((tag, index) => (
-							<span
-								key={index}
-								className="text-xs sm:text-sm text-gray"
-							>
+							<span key={index} className="text-xs sm:text-sm text-gray">
 								{tag}
 							</span>
 						))}

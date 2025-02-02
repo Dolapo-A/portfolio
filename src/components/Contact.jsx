@@ -1,9 +1,8 @@
-import React from "react";
 import { Button } from "../components/ui/button";
 
 const Contact = () => {
 	return (
-		<section className="py-16 sm:py-24 bg-gray-800 grid-background px-4 sm:px-6 lg:px-8">
+		<section className="py-16 sm:py-24 bg-gray-800 grid-background px-4 sm:px-6 lg:px-8" id="contact">
 			<div className="max-w-7xl mx-auto bg-gradient-to-br from-primary to-darkblue p-8 sm:p-16 lg:p-20 rounded-2xl grid grid-rows-1 sm:grid-rows-2 gap-14 sm:gap-28">
 				<h2 className="font-clash-display text-2xl sm:text-3xl">
 					Get in Touch
