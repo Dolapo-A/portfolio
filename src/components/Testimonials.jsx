@@ -25,7 +25,7 @@ const Testimonials = () => {
 				<div className="carousel-gradient relative py-8 sm:py-10 w-full" data-aos="flip-down">
 					<Carousel
 						opts={{
-							align: "center",
+							align: "start",
 							loop: "true",
 						}}
 						plugins={[

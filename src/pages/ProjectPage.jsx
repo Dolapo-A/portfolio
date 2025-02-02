@@ -41,8 +41,8 @@ const ProjectPage = () => {
 					</div>
 				</div>
 
-				<div className="grid grid-cols-1 lg:grid-cols-[3fr_1fr] gap-10 lg:gap-48">
-					<div className="flex flex-col gap-6 sm:gap-9">
+				<div className="grid grid-cols-1 lg:grid-cols-[3fr_1fr] gap-6 lg:gap-48">
+					<div className="flex flex-col gap-6 sm:gap-9 pb-24">
 						<div>
 							<h2 className="font-clash-display text-xl sm:text-2xl mb-2">Overview</h2>
 							<p className="text-sm sm:text-base text-gray">{project.fullDescription}</p>
@@ -91,24 +91,24 @@ const ProjectPage = () => {
 						
 					</div>
 				</div>
-				<div className="mt-6 sm:mt-9">
+				<div className="mt-6 sm:mt-9 pb-24">
 					<h2 className="font-clash-display text-xl sm:text-2xl mb-2">Snapshots</h2>
-					<div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-9">
-					{/* {project.images.map((img, index) => (
+					<div className="grid sm:grid-cols-2 gap-6 sm:gap-9">
+					{project.images.map((img, index) => (
                             <picture key={index}>
                                 <source srcSet={img.webpImage} type="image/webp" />
                                 <img
                                     className="w-full h-64 sm:h-80 lg:h-96 object-cover"
-                                    src={img.image}
+                                    src={img}
                                     alt={project.title}
                                 />
                             </picture>
-                        ))} */}
-						<picture>
+                        ))}
+						{/* <picture>
 							<source srcSet={project.webpImage} type="image/webp" />
 							<img
 								className="w-full h-64 sm:h-80 lg:h-96 object-cover"
-								src={project.image}
+								src={project.images[0].image}
 								alt={project.title}
 							/>
 						</picture>
@@ -135,13 +135,13 @@ const ProjectPage = () => {
 								src={project.image}
 								alt={project.title}
 							/>
-						</picture>
+						</picture> */}
 					</div>
 				</div>
-				<div className="flex flex-col mt-4 sm:mt-6 pb-24">
+				{/* <div className="flex flex-col mt-4 sm:mt-6 pb-24">
 					<h2 className="font-clash-display text-xl sm:text-2xl mb-2">Overview</h2>
 					<p className="text-sm sm:text-base text-gray">{project.fullDescription}</p>
-				</div>
+				</div> */}
 			</section>
 			<Footer />
 		</>
