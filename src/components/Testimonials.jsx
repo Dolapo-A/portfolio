@@ -22,7 +22,7 @@ const Testimonials = () => {
 					</div>
 					<h2 className="font-clash-display text-3xl">What Clients Say</h2>
 				</div>
-				<div className="carousel-gradient relative py-8 sm:py-10 w-full">
+				<div className="carousel-gradient relative py-8 sm:py-10 w-full" data-aos="flip-down">
 					<Carousel
 						opts={{
 							align: "center",
@@ -30,7 +30,7 @@ const Testimonials = () => {
 						}}
 						plugins={[
 							Autoplay({
-								delay: 5000,
+								delay: 3000,
 							}),
 						]}
 						className="mx-auto "

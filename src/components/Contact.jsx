@@ -13,7 +13,7 @@ const Contact = () => {
 						Whether you want to collaborate or just chat about your next big
 						idea, I&apos;m just an email away. Let&apos;s connect!
 					</p>
-					<Button effect="shine" className="mt-4 sm:mt-0 bg-background">
+					<Button effect="shineHover" className="mt-4 sm:mt-0 bg-background">
 						Book a call
 					</Button>
 				</div>

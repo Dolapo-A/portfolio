@@ -24,7 +24,7 @@ const Navbar = () => {
 						<a href="#testimonials" className="text-sm">
 							Testimonials
 						</a>
-						<Button effect="shine">Book a call</Button>
+						<Button effect="shineHover">Book a call</Button>
 					</nav>
 					<button
 						className={`sm:hidden flex items-center transition-transform duration-300 ${
@@ -61,7 +61,7 @@ const Navbar = () => {
 							<a href="#testimonials" className="py-2 text-sm">
 								Testimoials
 							</a>
-							<Button effect="shine">Book a call</Button>
+							<Button effect="shineHover">Book a call</Button>
 						</div>
 					</div>
 				</div>

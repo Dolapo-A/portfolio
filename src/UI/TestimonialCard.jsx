@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const TestimonialCard = ({ name, feedback, image, position }) => {
 	return (
-		<div className="p-0" data-aos="zoom-out-down">
+		<div className="p-0" data-aos="zoom-out-up">
 			<Card className="max-w-sm mx-auto rounded-2xl">
 				<CardContent className="aspect-auto items-center justify-center p-6 rounded-2xl  card-gradient">
 					<p className="text-sm/6 text-gray">{feedback}</p>
