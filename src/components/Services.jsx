@@ -21,7 +21,7 @@ const Services = () => {
 						data-aos="fade-up"
 					>
 						<img
-							className="w-12 h-12 sm:w-16 sm:h-16"
+							className="w-12 h-12 sm:w-14 sm:h-14"
 							src={developmentIcon}
 							alt="Web Development"
 						/>
@@ -39,7 +39,7 @@ const Services = () => {
 						data-aos="fade-up"
 					>
 						<img
-							className="w-12 h-12 sm:w-16 sm:h-16"
+							className="w-12 h-12 sm:w-14 sm:h-14"
 							src={mobileIcon}
 							alt="Mobile Development"
 						/>
@@ -56,7 +56,7 @@ const Services = () => {
 						data-aos="fade-up"
 					>
 						<img
-							className="w-12 h-12 sm:w-16 sm:h-16"
+							className="w-12 h-12 sm:w-14 sm:h-14"
 							src={verifiedIcon}
 							alt="Brand Design"
 						/>

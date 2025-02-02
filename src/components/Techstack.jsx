@@ -6,7 +6,7 @@ const TechStack = () => {
 					<div className="flex gap-2">
 						<h2 className="text-3xl sm:text-4xl">*</h2>
 						<h2 className="font-clash-display text-base sm:text-lg text-primary">
-							Technologies
+							Skill set
 						</h2>
 					</div>
 					<h2 className="font-clash-display text-2xl sm:text-3xl">
@@ -36,7 +36,7 @@ const TechStack = () => {
 						FIREBASE
 					</h3>
 					<h3 className="font-clash-display text-xl sm:text-2xl text-white border-b-2 py-2 sm:py-3">
-						GITHUB
+						GIT
 					</h3>
 				</div>
 
