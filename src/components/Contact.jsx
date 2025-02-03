@@ -12,7 +12,7 @@ const Contact = () => {
 				</h2>
 
 				<div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mt-6 sm:mt-10">
-					<p className="text-xs sm:text-sm text-grayLight max-w-lg">
+					<p className="text-xs sm:text-base text-grayLight max-w-lg">
 						Whether you want to collaborate or just chat about your next big
 						idea, I&apos;m just an email away. Let&apos;s connect!
 					</p>
