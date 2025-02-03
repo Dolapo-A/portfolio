@@ -63,12 +63,9 @@ const Navbar = () => {
 							<a href="#testimonials" className="py-2 text-sm">
 								Testimoials
 							</a>
-							<Button
-								effect="shineHover"
-								href="mailto:dolapoaraoye401@gmail.com"
-							>
-								Say hi
-							</Button>
+							<a href="mailto:dolapoaraoye401@gmail.com">
+								<Button effect="shineHover">Say hi</Button>
+							</a>
 						</div>
 					</div>
 				</div>
