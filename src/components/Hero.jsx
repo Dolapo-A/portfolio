@@ -29,9 +29,12 @@ const Hero = () => {
 				</p>
 				<Sociallinks />
 
+				<a href="#projects">
+
 				<Button effect="shineHover" className="mt-4 sm:mt-6">
 					View Projects
 				</Button>
+				</a>
 			</div>
 		</section>
 	);

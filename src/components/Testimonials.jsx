@@ -22,7 +22,10 @@ const Testimonials = () => {
 					</div>
 					<h2 className="font-clash-display text-3xl">What Clients Say</h2>
 				</div>
-				<div className="carousel-gradient relative py-8 sm:py-10 w-full" data-aos="flip-down">
+				<div
+					className="carousel-gradient relative py-8 sm:py-10 w-full"
+					data-aos="flip-down"
+				>
 					<Carousel
 						opts={{
 							align: "start",
@@ -38,7 +41,8 @@ const Testimonials = () => {
 					>
 						<CarouselContent>
 							{testimonials.map((testimonial, index) => (
-								<CarouselItem key={index} className="basis-full sm:basis-1/2 lg:basis-1/3">
+								// basis-full sm:basis-1/2 lg:basis-1/3
+								<CarouselItem key={index} className="">
 									<TestimonialCard
 										image={testimonial.pofileimage}
 										name={testimonial.name}

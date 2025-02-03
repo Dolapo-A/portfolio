@@ -16,7 +16,7 @@ const ProjectPage = () => {
 	return (
 		<>
 			<Navbar/>
-			<section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 st:py-24 lg:pt-48">
+			<section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 st:py-24 lg:pt-36">
 				<div className="flex justify-between border-b-2 py-2 mb-6 border-b-primary">
 					<h1 className="font-clash-display text-2xl sm:text-3xl lg:text-4xl font-bold">
 						{project.title}
@@ -25,7 +25,7 @@ const ProjectPage = () => {
 						{project.links.map((linkItem, index) => (
 							<Button
 								key={index}
-								className="text-white text-sm sm:text-base lg:text-lg"
+								className="text-white text-sm sm:text-base lg:text-lg py-1 px-1"
 								variant="link"
 								effect="hoverUnderline"
 							>
@@ -42,7 +42,7 @@ const ProjectPage = () => {
 				</div>
 
 				<div className="grid grid-cols-1 lg:grid-cols-[3fr_1fr] gap-6 lg:gap-48">
-					<div className="flex flex-col gap-6 sm:gap-9 pb-24">
+					<div className="flex flex-col gap-6 sm:gap-9">
 						<div>
 							<h2 className="font-clash-display text-xl sm:text-2xl mb-2">Overview</h2>
 							<p className="text-sm sm:text-base text-gray">{project.fullDescription}</p>
