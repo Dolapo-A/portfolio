@@ -11,7 +11,7 @@ const Contact = () => {
 					Get in Touch
 				</h2>
 
-				<div className="flex flex-col sm:flex-row gap-6 justify-between items-start sm:items-center">
+				<div className="flex flex-col sm:flex-row gap-4 justify-between items-start sm:items-center">
 					<p className="text-base sm:text-base text-grayLight max-w-lg">
 						Whether you want to collaborate or just chat about your next big
 						idea, I&apos;m just an email away. Let&apos;s connect!

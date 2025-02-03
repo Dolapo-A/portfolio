@@ -56,16 +56,20 @@ const Navbar = () => {
 				<div className="flex justify-center fixed w-full">
 					<div className="max-w-2xl w-11/12">
 						<div className="sm:hidden backdrop-blur-xl bg-opacity-10 bg-white rounded-lg px-3 py-6 flex flex-col items-center gap-6 text-grayLight ">
-							<a href="#services" className="py-2 text-sm">
+							<a href="#services" className="py-2 text-sm" onClick={toggleMenu}>
 								Services
 							</a>
-							<a href="#projects" className="py-2 text-sm">
+							<a href="#projects" className="py-2 text-sm" onClick={toggleMenu}>
 								Projects
 							</a>
-							<a href="#testimonials" className="py-2 text-sm">
+							<a
+								href="#testimonials"
+								className="py-2 text-sm"
+								onClick={toggleMenu}
+							>
 								Testimonials
 							</a>
-							<a href="mailto:dolapoaraoye401@gmail.com">
+							<a href="mailto:dolapoaraoye401@gmail.com" onClick={toggleMenu}>
 								<Button effect="shineHover">Say hi</Button>
 							</a>
 						</div>
