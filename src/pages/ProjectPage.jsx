@@ -93,12 +93,12 @@ const ProjectPage = () => {
 				</div>
 				<div className="mt-6 sm:mt-9 pb-24">
 					<h2 className="font-clash-display text-xl sm:text-2xl mb-2">Snapshots</h2>
-					<div className="grid sm:grid-cols-2 gap-6 sm:gap-9">
+					<div className="grid sm:grid-cols-1 gap-6 sm:gap-9">
 					{project.images.map((img, index) => (
                             <picture key={index}>
                                 <source srcSet={img.webpImage} type="image/webp" />
                                 <img
-                                    className="w-full h-64 sm:h-80 lg:h-96 object-cover"
+                                    className="w-auto h-auto sm:h-80 lg:h-96 object-contain"
                                     src={img}
                                     alt={project.title}
                                 />
