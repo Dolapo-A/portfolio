@@ -13,12 +13,13 @@ import Navbar from "./components/Navbar";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
 	useEffect(() => {
 		AOS.init({
 			duration: 500,
-			// once: true,
+			once: true,
 		});
 	}, []);
 
@@ -26,6 +27,7 @@ function App() {
 		<>
 			<BrowserRouter>
 				<ScrollToTop />
+				<Analytics />
 				<Routes>
 					<Route
 						path="/"
