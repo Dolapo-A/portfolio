@@ -1,7 +1,7 @@
 import "../styles/custom.css";
 import { Button } from "@/components/ui/button";
 import Sociallinks from "../UI/Sociallinks";
-import WaveReveal from "../components/animata/text/wave-reveal";
+// import WaveReveal from "../components/animata/text/wave-reveal";
 
 const Hero = () => {
 	return (

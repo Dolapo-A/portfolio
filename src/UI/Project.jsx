@@ -30,11 +30,11 @@ const Project = ({
 				<p className="font-normal text-sm sm:text-base text-grayLight mt-6">
 					{description}
 				</p>
-				<div className="flex gap-2 sm:gap-4 mt-6">
-					<span className="text-xs sm:text-sm font-medium">Tools : </span>
-					<div className="flex gap-2">
+				<div className="mt-6">
+					<span className="text-xs sm:text-sm font-medium inline-block mr-2">Tools:</span>
+					<div className="inline-block">
 						{tags.map((tag, index) => (
-							<span key={index} className="text-xs sm:text-sm text-gray">
+							<span key={index} className="text-xs sm:text-sm text-gray mr-2">
 								{tag}
 							</span>
 						))}

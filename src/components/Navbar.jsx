@@ -13,7 +13,9 @@ const Navbar = () => {
 		<div className="fixed top-3 z-50 w-full flex justify-center">
 			<div className="max-w-2xl w-11/12">
 				<div className="px-3 py-2 backdrop-blur-xl bg-opacity-10 bg-white rounded-lg flex justify-between items-center text-grayLight">
-					<h1 className="font-clash-display text-lg">Dolapo Araoye</h1>
+					<a href="/">
+						<h1 className="font-clash-display text-lg">Dolapo Araoye</h1>
+					</a>
 					<nav className="hidden sm:flex gap-5 items-center">
 						<a href="#services" className="text-sm">
 							Services
@@ -61,7 +63,7 @@ const Navbar = () => {
 								Projects
 							</a>
 							<a href="#testimonials" className="py-2 text-sm">
-								Testimoials
+								Testimonials
 							</a>
 							<a href="mailto:dolapoaraoye401@gmail.com">
 								<Button effect="shineHover">Say hi</Button>
