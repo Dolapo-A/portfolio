@@ -37,7 +37,7 @@ import Qrcodegeneratorgif from "../assets/images/gifs/Qrcodegenerator.gif";
 
 export const projects = [
 	{
-		id: "larryMark_international",
+		id: "larrymark_international",
 		title: "Larrymark International",
 		clientName: "Larry Mark",
 		ProjectType: "Web Development",
