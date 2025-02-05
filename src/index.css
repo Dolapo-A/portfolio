@@ -1,34 +1,33 @@
-@import './styles/custom.css';
+@import "./styles/custom.css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
 	font-family: "Clash Display";
-	src: url("./assets/fonts/ClashDisplay-Medium.otf") format("opentype");
+	src: url("/fonts/ClashDisplay-Medium.otf") format("opentype");
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Manrope";
-	src: url("./assets/fonts/Manrope-Regular.otf") format("opentype");
+	src: url("/fonts/Manrope-Regular.otf") format("opentype");
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Manrope";
-	src: url("./assets/fonts/Manrope-Medium.otf") format("opentype");
+	src: url("/fonts/Manrope-Medium.otf") format("opentype");
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Manrope";
-	src: url("./assets/fonts/Manrope-Bold.otf") format("opentype");
+	src: url("/fonts/Manrope-Bold.otf") format("opentype");
 	font-weight: 700;
 	font-style: normal;
 }
@@ -70,7 +69,7 @@ h3 {
 }
 
 @layer base {
-  :root {
+	:root {
 		--radius: 0.5rem;
 	}
 }
