@@ -9,7 +9,7 @@ const TechStack = () => {
 							Skill set
 						</h2>
 					</div>
-					<h2 className="font-clash-display text-2xl sm:text-3xl">
+					<h2 className="font-clash-display text-3xl">
 						My Tech Stack
 					</h2>
 				</div>
