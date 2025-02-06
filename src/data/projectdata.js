@@ -82,7 +82,7 @@ export const projects = [
 		fullDescription:
 			"The Oyin Araoye brand identity project focused on creating a sophisticated and memorable visual language that reflects the designer's unique aesthetic and luxury positioning. The design system encompasses everything from typography and color palettes to packaging design and social media templates. The goal was to create a cohesive brand experience that resonates with high-end fashion consumers while maintaining versatility across different applications.",
 		tags: ["Figma", "Illustrator", "Photoshop"],
-		// links: [""],
+		links: [],
 		challenges:
 			"Creating a visual identity that balanced luxury with accessibility, while ensuring the brand remained distinctive in a crowded fashion market. maintaining consistency across various brand touchpoints was also crucial.",
 		solutions:
@@ -105,7 +105,7 @@ export const projects = [
 		fullDescription:
 			"For the Coinlert project, I worked with a team of developers and designers from Thexis Tech. My focus was on building the UI and functionalities for the sign up and sign in pages. This included implementing password confirmation, password character count and verification, and integrating Google sign in using OAuth. Additionally, I utilized Firebase authentication for the sign in process to ensure a secure and seamless user experience.",
 		tags: ["Flutter", "Firebase", "Google OAuth"],
-		// links: [""],
+		links: [],
 		challenges:
 			"Ensuring a seamless and secure authentication process while maintaining a user-friendly interface. Integrating multiple authentication methods and handling edge cases for password verification.",
 		solutions:

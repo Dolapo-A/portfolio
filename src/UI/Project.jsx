@@ -31,7 +31,9 @@ const Project = ({
 					{description}
 				</p>
 				<div className="mt-6">
-					<span className="text-xs sm:text-sm font-medium inline-block mr-2">Tools:</span>
+					<span className="text-xs sm:text-sm font-medium inline-block mr-2">
+						Tools:
+					</span>
 					<div className="inline-block">
 						{tags.map((tag, index) => (
 							<span key={index} className="text-xs sm:text-sm text-gray mr-2">

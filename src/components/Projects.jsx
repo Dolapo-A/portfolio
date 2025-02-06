@@ -4,7 +4,10 @@ import { projects } from "../data/projectdata";
 
 const Projects = () => {
 	return (
-		<section className="py-16 md:py-24 md:px-6 bg-gray-800 bg-background dotted-background" id="projects">
+		<section
+			className="py-16 md:py-24 md:px-6 bg-gray-800 bg-background dotted-background"
+			id="projects"
+		>
 			<div className="max-w-7xl  px-4 sm:px-6 lg:px-8 mx-auto">
 				<div className=" mb-10">
 					<div className="flex gap-2">
@@ -52,6 +55,7 @@ const Projects = () => {
 					description={projects[3].description}
 					links={projects[3].links}
 				/>
+
 				<div className=" mt-10">
 					<h2 className="font-clash-display text-3xl">Side projects</h2>
 				</div>
@@ -81,6 +85,15 @@ const Projects = () => {
 					tags={projects[6].tags}
 					description={projects[6].description}
 					links={projects[6].links}
+				/>
+				<Project
+					id={projects[7].id}
+					webpImage={projects[7].webpImage}
+					jpgImage={projects[7].jpgImage}
+					title={projects[7].title}
+					tags={projects[7].tags}
+					description={projects[7].description}
+					links={projects[7].links}
 				/>
 			</div>
 		</section>
