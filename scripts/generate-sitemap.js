@@ -12,6 +12,7 @@ const projectIds = [
 	"wild_oasis",
 	"xchange_rate",
 	"qrcodegenerator",
+	"coinlert",
 	// Add all your project IDs
 ];
 
