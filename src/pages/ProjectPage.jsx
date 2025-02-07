@@ -3,7 +3,8 @@ import { useParams } from "react-router";
 import { projects } from "../data/projectdata";
 import Footer from "../components/Footer";
 import { Button } from "@/components/ui/button";
-import Navbar from "../components/Navbar";
+import Contact from "../components/Contact";
+import Navbarprojects from "../components/Navbarprojects";
 
 const ProjectPage = () => {
 	const { id } = useParams();
@@ -15,7 +16,7 @@ const ProjectPage = () => {
 
 	return (
 		<>
-			<Navbar/>
+			<Navbarprojects/>
 			<section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 st:py-24 lg:pt-36">
 				<div className="flex justify-between border-b-2 py-2 mb-6 border-b-primary">
 					<h1 className="font-clash-display text-2xl sm:text-3xl lg:text-4xl font-bold">
@@ -141,8 +142,9 @@ const ProjectPage = () => {
 				{/* <div className="flex flex-col mt-4 sm:mt-6 pb-24">
 					<h2 className="font-clash-display text-xl sm:text-2xl mb-2">Overview</h2>
 					<p className="text-sm sm:text-base text-gray">{project.fullDescription}</p>
-				</div> */}
+					</div> */}
 			</section>
+					<Contact/>
 			<Footer />
 		</>
 	);

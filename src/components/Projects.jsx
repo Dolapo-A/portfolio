@@ -56,9 +56,6 @@ const Projects = () => {
 					links={projects[3].links}
 				/>
 
-				<div className=" mt-10">
-					<h2 className="font-clash-display text-3xl">Side projects</h2>
-				</div>
 				<Project
 					id={projects[4].id}
 					webpImage={projects[4].webpImage}
@@ -68,6 +65,9 @@ const Projects = () => {
 					description={projects[4].description}
 					links={projects[4].links}
 				/>
+				<div className=" mt-10">
+					<h2 className="font-clash-display text-3xl">Side projects</h2>
+				</div>
 				<Project
 					id={projects[5].id}
 					webpImage={projects[5].webpImage}

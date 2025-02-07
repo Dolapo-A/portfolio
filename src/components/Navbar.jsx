@@ -12,7 +12,7 @@ const Navbar = () => {
 	return (
 		<div className="fixed top-3 z-50 w-full flex justify-center">
 			<div className="max-w-2xl w-11/12">
-				<div className="px-3 py-2 backdrop-blur-xl bg-opacity-10 bg-white rounded-lg flex justify-between items-center text-grayLight">
+				<div className="px-3 py-3 backdrop-blur-3xl bg-opacity-50 bg-darkGray rounded-lg flex justify-between items-center text-grayLight">
 					<a href="/">
 						<h1 className="font-clash-display text-lg">Dolapo Araoye</h1>
 					</a>
@@ -53,9 +53,9 @@ const Navbar = () => {
 					}
 				  `}
 			>
-				<div className="flex justify-center fixed w-full">
+				<div className="flex justify-center fixed w-full top-3">
 					<div className="max-w-2xl w-11/12">
-						<div className="sm:hidden backdrop-blur-xl bg-opacity-10 bg-white rounded-lg px-3 py-6 flex flex-col items-center gap-6 text-grayLight ">
+						<div className="sm:hidden backdrop-blur-xl bg-opacity-50 bg-darkGray rounded-lg px-3 py-6 flex flex-col items-center gap-6 text-grayLight ">
 							<a href="#services" className="py-2 text-sm" onClick={toggleMenu}>
 								Services
 							</a>
