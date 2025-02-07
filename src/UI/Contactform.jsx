@@ -18,7 +18,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
-import NotificationBanner from "./Notificationbanner";
+import NotificationBanner from "./Notificationbanner";  
 
 const formSchema = z.object({
 	name: z.string().min(2, {
