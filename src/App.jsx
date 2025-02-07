@@ -18,7 +18,7 @@ import { Analytics } from "@vercel/analytics/react";
 function App() {
 	useEffect(() => {
 		AOS.init({
-			duration: 500,
+			duration: 300,
 			// once: true,
 		});
 	}, []);
