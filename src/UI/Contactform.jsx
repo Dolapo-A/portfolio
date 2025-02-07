@@ -18,7 +18,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
-import NotificationBanner from "../UI/Notificationbanner";
+import Notificationbanner from "../UI/Notificationbanner";
 
 const formSchema = z.object({
 	name: z.string().min(2, {
@@ -83,7 +83,7 @@ const Contactform = () => {
 	return (
 		<div>
 			{notification && (
-				<NotificationBanner
+				<Notificationbanner
 					type={notification.type}
 					message={notification.message}
 					duration={5000}
