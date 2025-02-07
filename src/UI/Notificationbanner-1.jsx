@@ -5,7 +5,7 @@ import { X } from "lucide-react";
 const Notificationbanner = ({
 	message,
 	type,
-	duration = 10000, // 5 seconds by default
+	duration = 10000,
 	onClose,
 }) => {
 	const [isVisible, setIsVisible] = useState(true);
