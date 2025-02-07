@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { X } from "lucide-react";
 
-const NotificationBanner = ({
+const Notificationbanner = ({
 	message,
 	type,
 	duration = 10000, // 5 seconds by default
@@ -86,4 +86,4 @@ const NotificationBanner = ({
 	);
 };
 
-export default NotificationBanner;
+export default Notificationbanner;
