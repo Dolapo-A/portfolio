@@ -1,4 +1,3 @@
-import { Button } from "../components/ui/button";
 import Contactform from "../UI/Contactform";
 
 const Contact = () => {

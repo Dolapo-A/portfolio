@@ -69,8 +69,8 @@ const Navbar = () => {
 							>
 								Testimonials
 							</a>
-							<a href="mailto:dolapoaraoye401@gmail.com" onClick={toggleMenu}>
-								<Button effect="shineHover">Say hi</Button>
+							<a href="#contact" onClick={toggleMenu}>
+								<Button effect="shineHover">Contact</Button>
 							</a>
 						</div>
 					</div>

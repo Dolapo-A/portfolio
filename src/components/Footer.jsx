@@ -1,4 +1,3 @@
-/* eslint-disable no-irregular-whitespace */
 import Sociallinks from "../UI/Sociallinks";
 
 const Footer = () => {
