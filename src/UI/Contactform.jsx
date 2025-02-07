@@ -24,9 +24,7 @@ const formSchema = z.object({
 	name: z.string().min(2, {
 		message: "Name must be at least 2 characters.",
 	}),
-	email: z.string().min(2, {
-		message: "Email must be valiid",
-	}),
+	email: z.string().email({ message: "Invalid email" }),
 	messages: z.string().min(2, {
 		message: "Message must be at least a character.",
 	}),
@@ -40,9 +38,9 @@ const Contactform = () => {
 	const form = useForm({
 		resolver: zodResolver(formSchema),
 		defaultValues: {
-			name: "hi",
-			email: "hello",
-			messages: "wassgud",
+			name: "",
+			email: "",
+			messages: "",
 		},
 	});
 
@@ -104,7 +102,7 @@ const Contactform = () => {
 								<FormControl>
 									<Input
 										className="bg-slate-50 border-1 border-grayLight text-background"
-										placeholder="John Donut"
+										placeholder="John Doe"
 										{...field}
 									/>
 								</FormControl>
@@ -122,7 +120,7 @@ const Contactform = () => {
 								<FormControl>
 									<Input
 										className="bg-slate-50 border-1 border-grayLight text-background"
-										placeholder="johndoughnut@io.com"
+										placeholder="johndoe@mail.com"
 										{...field}
 									/>
 								</FormControl>

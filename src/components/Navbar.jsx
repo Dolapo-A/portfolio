@@ -26,8 +26,8 @@ const Navbar = () => {
 						<a href="#testimonials" className="text-sm">
 							Testimonials
 						</a>
-						<a href="mailto:dolapoaraoye401@gmail.com">
-							<Button effect="shineHover">Say hi</Button>
+						<a href="#contact">
+							<Button effect="shineHover">Contact</Button>
 						</a>
 					</nav>
 					<button
