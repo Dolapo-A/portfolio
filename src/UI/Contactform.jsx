@@ -26,7 +26,7 @@ const formSchema = z.object({
 	}),
 	email: z.string().email({ message: "Invalid email" }),
 	messages: z.string().min(2, {
-		message: "Message must be at least a character.",
+		message: "Message must be at least a Word.",
 	}),
 });
 
@@ -68,7 +68,7 @@ const Contactform = () => {
 				message: "Message sent successfully!",
 			});
 			form.reset();
-		} catch (error) {
+		} catch {
 			setNotification({
 				type: "error",
 				message: "Failed to send message. Please try again.",

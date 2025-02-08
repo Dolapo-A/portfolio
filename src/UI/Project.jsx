@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
-import { useEffect } from "react";
 import { Link } from "react-router";
 
 const Project = ({

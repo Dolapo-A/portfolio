@@ -10,8 +10,6 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import ProjectPage from "./pages/ProjectPage";
 import ScrollToTop from "./Scolltotop";
 import Navbar from "./components/Navbar";
-import { useEffect } from "react";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import { Analytics } from "@vercel/analytics/react";
 
