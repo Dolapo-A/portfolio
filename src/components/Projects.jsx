@@ -1,8 +1,26 @@
+import { useEffect } from "react";
 import Project from "../UI/Project";
 
 import { projects } from "../data/projectdata";
 
 const Projects = () => {
+	// useEffect(() => {
+	// 	projects.forEach((project) => {
+	// 		// Create new Image objects to preload
+	// 		const webpLoader = new Image();
+	// 		const jpgLoader = new Image();
+
+	// 		webpLoader.src = project.webpImage;
+	// 		jpgLoader.src = project.jpgImage;
+
+	// 		// Also preload gallery images if needed
+	// 		project.images?.forEach((galleryImage) => {
+	// 			const galleryLoader = new Image();
+	// 			galleryLoader.src = galleryImage;
+	// 		});
+	// 	});
+	// }, []);
+
 	return (
 		<section
 			className="py-16 md:py-24 md:px-6 bg-gray-800 bg-background dotted-background"

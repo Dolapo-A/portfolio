@@ -25,7 +25,6 @@ const Testimonials = () => {
 				<div
 					// carousel-gradient
 					className=" relative py-8 sm:py-10 w-full"
-					data-aos="flip-down"
 				>
 					<Carousel
 						opts={{

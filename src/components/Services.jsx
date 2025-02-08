@@ -18,7 +18,6 @@ const Services = () => {
 				<div className="mt-8 sm:mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-10">
 					<div
 						className="border border-darkGray p-4 sm:p-5 lg:p-6 bg-gray-700 rounded-2xl card-gradient"
-						data-aos="fade-up"
 					>
 						<img
 							className="w-12 h-12 sm:w-14 sm:h-14"
@@ -36,7 +35,6 @@ const Services = () => {
 					</div>
 					<div
 						className="border border-darkGray p-4 sm:p-5 lg:p-6 bg-gray-700 rounded-2xl card-gradient"
-						data-aos="fade-up"
 					>
 						<img
 							className="w-12 h-12 sm:w-14 sm:h-14"
@@ -53,7 +51,6 @@ const Services = () => {
 					</div>
 					<div
 						className="border border-darkGray p-4 sm:p-5 lg:p-6 bg-gray-700 rounded-2xl card-gradient"
-						data-aos="fade-up"
 					>
 						<img
 							className="w-12 h-12 sm:w-14 sm:h-14"
