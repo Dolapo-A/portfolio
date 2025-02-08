@@ -13,26 +13,14 @@ const Project = ({
 	tags,
 	links = [],
 }) => {
-	useEffect(() => {
-		// Preload both webp and jpg images
-		const webpLoader = new Image();
-		const jpgLoader = new Image();
-
-		webpLoader.src = webpImage;
-		jpgLoader.src = jpgImage;
-	}, [webpImage, jpgImage]);
 	return (
-		<div
-			className="flex flex-col  lg:flex-row gap-8 max-w-7xl border border-darkGray p-4 rounded-2xl mt-9 bg-background"
-		>
+		<div className="flex flex-col  lg:flex-row gap-8 max-w-7xl border border-darkGray p-4 rounded-2xl mt-9 bg-background">
 			<picture>
 				<source srcSet={webpImage} type="image/webp" />
 				<img
 					className="aspect-video lg:w-96 lg:h-64  object-cover border border-darkGray rounded-xl"
 					src={jpgImage}
 					alt={title}
-					 loading="eager"
-          decoding="async"
 				/>
 			</picture>
 			<div className="flex lg:justify-between grow flex-col border border-darkGray p-4 lg:p-6 rounded-xl w-full bg-background card-gradient">

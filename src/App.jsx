@@ -16,12 +16,12 @@ import "aos/dist/aos.css";
 import { Analytics } from "@vercel/analytics/react";
 
 function App() {
-	useEffect(() => {
-		AOS.init({
-			duration: 300,
-			// once: true,
-		});
-	}, []);
+	// useEffect(() => {
+	// 	AOS.init({
+	// 		duration: 300,
+	// 		// once: true,
+	// 	});
+	// }, []);
 
 	return (
 		<>
