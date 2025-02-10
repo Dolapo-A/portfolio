@@ -12,20 +12,15 @@ import ScrollToTop from "./Scolltotop";
 import Navbar from "./components/Navbar";
 import "aos/dist/aos.css";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 function App() {
-	// useEffect(() => {
-	// 	AOS.init({
-	// 		duration: 300,
-	// 		// once: true,
-	// 	});
-	// }, []);
-
 	return (
 		<>
 			<BrowserRouter>
 				<ScrollToTop />
 				<Analytics />
+				<SpeedInsights />
 				<Routes>
 					<Route
 						path="/"
