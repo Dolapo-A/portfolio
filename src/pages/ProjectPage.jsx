@@ -15,8 +15,8 @@ const ProjectPage = () => {
 	}
 
 	return (
-		<>
-			<Navbarprojects/>
+		<div>
+			<Navbarprojects />
 			<section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 st:py-24 lg:pt-36">
 				<div className="flex justify-between border-b-2 py-2 mb-6 border-b-primary">
 					<h1 className="font-clash-display text-2xl sm:text-3xl lg:text-4xl font-bold">
@@ -45,12 +45,18 @@ const ProjectPage = () => {
 				<div className="grid grid-cols-1 lg:grid-cols-[3fr_1fr] gap-6 lg:gap-48">
 					<div className="flex flex-col gap-6 sm:gap-9">
 						<div>
-							<h2 className="font-clash-display text-xl sm:text-2xl mb-2">Overview</h2>
-							<p className="text-sm sm:text-base text-gray">{project.fullDescription}</p>
+							<h2 className="font-clash-display text-xl sm:text-2xl mb-2">
+								Overview
+							</h2>
+							<p className="text-sm sm:text-base text-gray">
+								{project.fullDescription}
+							</p>
 						</div>
 
 						<div>
-							<h2 className="font-clash-display text-xl sm:text-2xl mb-2">Tech Stack</h2>
+							<h2 className="font-clash-display text-xl sm:text-2xl mb-2">
+								Tech Stack
+							</h2>
 							<div className="flex flex-wrap gap-3">
 								{project.techStack.map((tech, index) => (
 									<span key={index} className="text-sm sm:text-base text-gray">
@@ -64,13 +70,21 @@ const ProjectPage = () => {
 							<h2 className="font-clash-display text-xl sm:text-2xl mb-2">
 								Challenges & Solutions
 							</h2>
-							<p className="text-sm sm:text-base text-gray mb-4">{project.challenges}</p>
-							<p className="text-sm sm:text-base text-gray">{project.solutions}</p>
+							<p className="text-sm sm:text-base text-gray mb-4">
+								{project.challenges}
+							</p>
+							<p className="text-sm sm:text-base text-gray">
+								{project.solutions}
+							</p>
 						</div>
 
 						<div>
-							<h2 className="font-clash-display text-xl sm:text-2xl mb-2">Outcome</h2>
-							<p className="text-sm sm:text-base text-gray">{project.outcome}</p>
+							<h2 className="font-clash-display text-xl sm:text-2xl mb-2">
+								Outcome
+							</h2>
+							<p className="text-sm sm:text-base text-gray">
+								{project.outcome}
+							</p>
 						</div>
 					</div>
 
@@ -79,32 +93,43 @@ const ProjectPage = () => {
 							<h2 className="font-clash-display text-xl sm:text-2xl mb-2">
 								Client&apos;s Name
 							</h2>
-							<p className="text-sm sm:text-base text-gray">{project.clientName}</p>
+							<p className="text-sm sm:text-base text-gray">
+								{project.clientName}
+							</p>
 						</div>
 						<div>
-							<h2 className="font-clash-display text-xl sm:text-2xl mb-2">Project Type</h2>
-							<p className="text-sm sm:text-base text-gray">{project.ProjectType}</p>
+							<h2 className="font-clash-display text-xl sm:text-2xl mb-2">
+								Project Type
+							</h2>
+							<p className="text-sm sm:text-base text-gray">
+								{project.ProjectType}
+							</p>
 						</div>
 						<div>
-							<h2 className="font-clash-display text-xl sm:text-2xl mb-2">Project Year</h2>
-							<p className="text-sm sm:text-base text-gray">{project.projectYear}</p>
+							<h2 className="font-clash-display text-xl sm:text-2xl mb-2">
+								Project Year
+							</h2>
+							<p className="text-sm sm:text-base text-gray">
+								{project.projectYear}
+							</p>
 						</div>
-						
 					</div>
 				</div>
 				<div className="mt-6 sm:mt-9 pb-24">
-					<h2 className="font-clash-display text-xl sm:text-2xl mb-2">Snapshots</h2>
+					<h2 className="font-clash-display text-xl sm:text-2xl mb-2">
+						Snapshots
+					</h2>
 					<div className="grid sm:grid-cols-2 gap-6 sm:gap-9">
-					{project.images.map((img, index) => (
-                            <picture key={index}>
-                                <source srcSet={img.webpImage} type="image/webp" />
-                                <img
-                                    className="w-auto h-auto sm:h-80 lg:h-96 object-cover"
-                                    src={img}
-                                    alt={project.title}
-                                />
-                            </picture>
-                        ))}
+						{project.images.map((img, index) => (
+							<picture key={index}>
+								<source srcSet={img.webpImage} type="image/webp" />
+								<img
+									className="w-auto h-auto sm:h-80 lg:h-96 object-cover"
+									src={img}
+									alt={project.title}
+								/>
+							</picture>
+						))}
 						{/* <picture>
 							<source srcSet={project.webpImage} type="image/webp" />
 							<img
@@ -144,9 +169,9 @@ const ProjectPage = () => {
 					<p className="text-sm sm:text-base text-gray">{project.fullDescription}</p>
 					</div> */}
 			</section>
-					<Contact/>
+			<Contact />
 			<Footer />
-		</>
+		</div>
 	);
 };
 

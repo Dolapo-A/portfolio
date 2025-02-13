@@ -18,28 +18,29 @@ function App() {
 	return (
 		<>
 			<BrowserRouter>
-				<ScrollToTop />
-				<Analytics />
-				<SpeedInsights />
-				<Routes>
-					<Route
-						path="/"
-						element={
-							<>
-								<Navbar />
-								<Hero />
-								<Services />
-								<TechStack />
-								<Projects />
-								<Testimonials />
-								<Contact />
-								<Footer />
-							</>
-						}
-					/>
+				<ScrollToTop>
+					<Analytics />
+					<SpeedInsights />
+					<Routes>
+						<Route
+							path="/"
+							element={
+								<>
+									<Navbar />
+									<Hero />
+									<Services />
+									<TechStack />
+									<Projects />
+									<Testimonials />
+									<Contact />
+									<Footer />
+								</>
+							}
+						/>
 
-					<Route path="project/:id" element={<ProjectPage />} />
-				</Routes>
+						<Route path="project/:id" element={<ProjectPage />} />
+					</Routes>
+				</ScrollToTop>
 			</BrowserRouter>
 		</>
 	);

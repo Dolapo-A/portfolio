@@ -21,7 +21,7 @@ const Project = ({
 					src={jpgImage}
 					alt={title}
 				/>
-			</picture>  
+			</picture>
 			<div className="flex lg:justify-between grow flex-col border border-darkGray p-4 lg:p-6 rounded-xl w-full bg-background card-gradient">
 				<h3 className="font-bold text-xl sm:text-2xl">{title}</h3>
 				<p className="font-normal text-sm sm:text-base text-grayLight mt-6">
@@ -40,14 +40,14 @@ const Project = ({
 					</div>
 				</div>
 				<div className="flex flex-col justify-between mt-6 sm:flex-row">
-					<Link to={`/project/${id}`}>
+					<Link to={`/project/${id}`} target="_blank" rel="noopener noreferrer">
 						<Button
 							effect="expandIcon"
 							icon={ChevronRight}
 							iconPlacement="right"
 							className=" sm:w-auto"
 						>
-							View project
+							View project details
 						</Button>
 					</Link>
 					<div className="flex gap-5 mt-4 sm:mt-0">
