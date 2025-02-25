@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Button } from "@/components/ui/button";
-import { ChevronRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { Link } from "react-router";
 
 const Project = ({
@@ -43,7 +43,7 @@ const Project = ({
 					<Link to={`/project/${id}`} target="_blank" rel="noopener noreferrer">
 						<Button
 							effect="expandIcon"
-							icon={ChevronRight}
+							icon={ArrowUpRight}
 							iconPlacement="right"
 							className=" sm:w-auto"
 						>
@@ -65,6 +65,7 @@ const Project = ({
 								>
 									{linkItem.name}
 								</a>
+								<ArrowUpRight size={16} />
 							</Button>
 						))}
 					</div>

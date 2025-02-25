@@ -10,7 +10,6 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import ProjectPage from "./pages/ProjectPage";
 import ScrollToTop from "./Scolltotop";
 import Navbar from "./components/Navbar";
-import "aos/dist/aos.css";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 

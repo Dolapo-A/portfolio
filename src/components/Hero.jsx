@@ -1,7 +1,6 @@
 import "../styles/custom.css";
 import { Button } from "@/components/ui/button";
 import Sociallinks from "../UI/Sociallinks";
-// import WaveReveal from "../components/animata/text/wave-reveal";
 
 const Hero = () => {
 	return (
@@ -20,7 +19,6 @@ const Hero = () => {
 						className="font-clash-display text-2xl sm:text-3xl lg:text-4xl font-bold"
 						text="Crafting Digital Experiences Through Code & Design"
 					/> */}
-					
 				</h1>
 				<p className="font-manrope mt-4 text-sm sm:text-base lg:text-lg w-full max-w-xl text-grayLight">
 					Hi, I&apos;m Dolapo. I transform ideas into seamless digital
@@ -30,10 +28,9 @@ const Hero = () => {
 				<Sociallinks />
 
 				<a href="#projects">
-
-				<Button effect="shineHover" className="mt-4 sm:mt-6">
-					View Projects
-				</Button>
+					<Button effect="shineHover" className="mt-4 sm:mt-6">
+						View Projects
+					</Button>
 				</a>
 			</div>
 		</section>

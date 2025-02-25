@@ -2,6 +2,7 @@
 import { useParams } from "react-router";
 import { projects } from "../data/projectdata";
 import Footer from "../components/Footer";
+import { ArrowUpRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Contact from "../components/Contact";
 import Navbarprojects from "../components/Navbarprojects";
@@ -37,6 +38,7 @@ const ProjectPage = () => {
 								>
 									{linkItem.name}
 								</a>
+								<ArrowUpRight/>
 							</Button>
 						))}
 					</div>
