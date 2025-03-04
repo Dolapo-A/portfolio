@@ -10,7 +10,7 @@ const Hero = () => {
 		>
 			<div className="bg-transparent flex flex-col items-center">
 				<p className="border-2 border-primary font-clash-display text-sm sm:text-base bg-white text-background px-4 rounded-2xl mb-3">
-					Front end developer & Brand designer
+					Front end developer
 				</p>
 
 				<h1 className="font-clash-display text-2xl sm:text-3xl lg:text-4xl font-bold">
