@@ -18,7 +18,7 @@ const Hero = () => {
 					Building Intuitive Digital Experiences
 				</h1>
 				<p className="font-manrope mt-4 text-sm sm:text-base lg:text-lg w-full max-w-xl text-grayLight text-start">
-					Hi, I’m <strong className="text-white text-lg">Dolapo</strong>. I
+					Hi, I’m <strong className="text-white text-base">Dolapo</strong>. I
 					specialize in building seamless web and mobile experiences that
 					combine clean code with intuitive design, helping your brand stand out
 					in the digital space.
