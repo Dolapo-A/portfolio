@@ -27,7 +27,7 @@ const Navbar = () => {
 							Testimonials
 						</a>
 						<a href="#contact">
-							<Button effect="shineHover">Contact</Button>
+							<Button effect="shineHover">Get in touch</Button>
 						</a>
 					</nav>
 					<button
@@ -70,7 +70,7 @@ const Navbar = () => {
 								Testimonials
 							</a>
 							<a href="#contact" onClick={toggleMenu}>
-								<Button effect="shineHover">Contact</Button>
+								<Button effect="shineHover">Get in touch</Button>
 							</a>
 						</div>
 					</div>

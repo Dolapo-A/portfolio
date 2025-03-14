@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import Project from "../UI/Project";
 
 import { projects } from "../data/projectdata";

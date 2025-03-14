@@ -28,9 +28,7 @@ const Services = () => {
 							Web Development
 						</h3>
 						<p className="font-manrope text-sm sm:text-base text-grayLight mt-2">
-							I craft unique visual identities and brand experiences to help
-							businesses stand out online, focusing on meaningful audience
-							connections.
+							I build engaging, high-performance websites that captures your brand&apos;s essence and drive meaningful user interactions.
 						</p>
 					</div>
 					<div
@@ -45,8 +43,7 @@ const Services = () => {
 							Mobile Development
 						</h3>
 						<p className="font-manrope text-sm sm:text-base text-grayLight mt-2">
-							Elevate your digital presence with custom Flutter apps, offering
-							native-like experiences for iOS and Android.
+							I create seamless, native-like Flutter apps, using Flutter for Android development 
 						</p>
 					</div>
 					<div
@@ -61,7 +58,7 @@ const Services = () => {
 							Brand Design
 						</h3>
 						<p className="font-manrope text-sm sm:text-base text-grayLight mt-2">
-							I craft unique visual identities and brand experiences to help
+							I design unique visual identities and brand experiences to help
 							businesses stand out online, focusing on meaningful audience
 							connections.
 						</p>
