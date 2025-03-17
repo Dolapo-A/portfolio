@@ -57,14 +57,13 @@ export const projects = [
 		webpImage: LarrymarkMockupwebp,
 		jpgImage: LarrymarkMockup,
 		images: [LarrymarkPng01, LarrymarkPng02, LarrymarkPng03, LarrymarkPng04],
-		description:
-			"E-commerce website for international import-export business with product catalog and shipping tools.",
+		description: "Website for international import-export business .",
 		fullDescription:
-			"Larrymark International required a complete digital transformation of their online presence. The new website was built to showcase their extensive product catalog while providing essential tools for international customers. Key features include a dynamic product filtering system, real-time shipping cost calculations, and a multi-language support system to cater to their global client base. The design emphasizes user experience with quick load times and mobile-first responsiveness.",
+			"Larrymark International required a complete digital transformation of their online presence. The new website was built to showcase their extensive product catalog while providing essential tools for both local and international customers. The design emphasizes user experience with quick load times and mobile-first responsiveness.",
 		tags: ["HTML", "CSS", "JavaScript"],
 		links: [{ name: "Live", url: "https://www.larrymarkintl.com/" }],
 		challenges:
-			"The main challenges included implementing a complex product catalog system, optimizing image loading for international users with varying internet speeds, and creating a responsive design that maintained functionality across all device sizes.",
+			"The main challenges included implementing a complex product catalog system, optimizing image loading for users with varying internet speeds, and creating a responsive design that maintained functionality across all device sizes.",
 		solutions:
 			"Implemented lazy loading and image optimization techniques to improve load times. Created a progressive web app architecture for better performance. Developed a custom caching system for product data to reduce server load.",
 		techStack: ["HTML", "CSS", "JavaScript"],
