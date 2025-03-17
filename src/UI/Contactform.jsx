@@ -46,7 +46,6 @@ const Contactform = () => {
 
 	// submit handler.
 	async function onSubmit(values) {
-		console.log(values);
 		try {
 			setIsSubmitting(true);
 			const templateParams = {
@@ -112,6 +111,7 @@ const Contactform = () => {
 						)}
 					/>
 					<FormField
+						
 						control={form.control}
 						name="email"
 						render={({ field }) => (

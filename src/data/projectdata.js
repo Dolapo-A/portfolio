@@ -20,9 +20,13 @@ import QRcodeGeneratorwebp from "../assets/images/webp/qrcodegenerator.webp";
 import LarrymarkPng01 from "../assets/images/gallery/larrymark_01.png";
 import LarrymarkPng02 from "../assets/images/gallery/larrymark_02.png";
 import LarrymarkPng03 from "../assets/images/gallery/larrymark_03.png";
-import Oyinaraoye01Png01 from "../assets/images/gallery/oyin_araoye_01.png";
-import Oyinaraoye02Jpg02 from "../assets/images/gallery/oyin_araoye_02.jpg";
-import Oyinaraoye03jpg03 from "../assets/images/gallery/oyin_araoye_03.jpg";
+// import Oyinaraoye01Png01 from "../assets/images/gallery/oyin_araoye_01.png";
+// import Oyinaraoye02Jpg02 from "../assets/images/gallery/oyin_araoye_02.jpg";
+// import Oyinaraoye03jpg03 from "../assets/images/gallery/oyin_araoye_03.jpg";
+import Oyinaraoye04jpg04 from "../assets/images/gallery/oyin_araoye_04.png";
+import Oyinaraoye05jpg05 from "../assets/images/gallery/oyin_araoye_05.png";
+import Oyinaraoye06jpg06 from "../assets/images/gallery/oyin_araoye_06.png";
+import Oyinaraoye07jpg07 from "../assets/images/jpg/oyin-araoye.jpg";
 import CoinlertPng01 from "../assets/images/gallery/coinlert_01.jpg";
 import CoinlertPng02 from "../assets/images/gallery/coinlert_02.jpg";
 import CoinlertPng03 from "../assets/images/gallery/coinlert_03.jpg";
@@ -76,7 +80,12 @@ export const projects = [
 		projectYear: "2025",
 		webpImage: OyinAraoyeMockupwebp,
 		jpgImage: OyinAraoyeMockup,
-		images: [Oyinaraoye01Png01, Oyinaraoye02Jpg02, Oyinaraoye03jpg03],
+		images: [
+			Oyinaraoye07jpg07,
+			Oyinaraoye04jpg04,
+			Oyinaraoye05jpg05,
+			Oyinaraoye06jpg06,
+		],
 		description:
 			"Luxury fashion brand identity design and marketing collateral.",
 		fullDescription:
