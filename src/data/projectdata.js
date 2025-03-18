@@ -57,7 +57,7 @@ export const projects = [
 		webpImage: LarrymarkMockupwebp,
 		jpgImage: LarrymarkMockup,
 		images: [LarrymarkPng01, LarrymarkPng02, LarrymarkPng03, LarrymarkPng04],
-		description: "Website for international import-export business .",
+		description: "Website for international import-export business.",
 		fullDescription:
 			"Larrymark International required a complete digital transformation of their online presence. The new website was built to showcase their extensive product catalog while providing essential tools for both local and international customers. The design emphasizes user experience with quick load times and mobile-first responsiveness.",
 		tags: ["HTML", "CSS", "JavaScript"],
