@@ -13,11 +13,11 @@ const Project = ({
 	links = [],
 }) => {
 	return (
-		<div className="flex flex-col  lg:flex-row gap-4 max-w-7xl border border-darkGray p-4 rounded-2xl mt-9 bg-background h-screen-80">
+		<div className="flex flex-col gap-4 max-w-7xl border border-darkGray p-4 rounded-2xl bg-background h-screen-80">
 			<picture>
 				<source srcSet={webpImage} type="image/webp" />
 				<img
-					className="aspect-video lg:max-w-lg lg:h-96 object-cover border border-darkGray rounded-xl"
+					className="aspect-video lg:h-96 object-cover border border-darkGray rounded-xl"
 					src={jpgImage}
 					alt={title}
 				/>
