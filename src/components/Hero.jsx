@@ -10,9 +10,9 @@ const Hero = () => {
 			id="hero"
 		>
 			<div className="bg-transparent flex flex-col items-start">
-				<p className="border-2 border-primary font-clash-display text-sm sm:text-base card-gradient text-white px-4 rounded-2xl mb-3">
+				{/* <p className="border-2 border-primary font-clash-display text-sm sm:text-base card-gradient text-white px-4 rounded-2xl mb-3">
 					Front-end developer
-				</p>
+				</p> */}
 
 				<h1 className="font-clash-display text-2xl sm:text-3xl lg:text-4xl font-bold text-start">
 					Building Intuitive Digital Experiences
