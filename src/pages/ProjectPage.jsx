@@ -38,7 +38,7 @@ const ProjectPage = () => {
 								>
 									{linkItem.name}
 								</a>
-								<ArrowUpRight/>
+								<ArrowUpRight />
 							</Button>
 						))}
 					</div>
@@ -121,49 +121,18 @@ const ProjectPage = () => {
 					<h2 className="font-clash-display text-xl sm:text-2xl mb-2">
 						Snapshots
 					</h2>
-					<div className="grid sm:grid-cols-2 gap-6 sm:gap-9">
+
+					<div className="columns-1 sm:columns-2 lg:columns-2 gap-4 sm:gap-6 space-y-4 sm:space-y-6">
 						{project.images.map((img, index) => (
-							<picture key={index}>
+							<picture key={index} className="break-inside-avoid">
 								<source srcSet={img.webpImage} type="image/webp" />
 								<img
-									className="w-auto h-auto sm:h-80 lg:h-96 object-cover"
+									className="w-full h-auto object-cover rounded-lg mb-4 sm:mb-6"
 									src={img}
 									alt={project.title}
 								/>
 							</picture>
 						))}
-						{/* <picture>
-							<source srcSet={project.webpImage} type="image/webp" />
-							<img
-								className="w-full h-64 sm:h-80 lg:h-96 object-cover"
-								src={project.images[0].image}
-								alt={project.title}
-							/>
-						</picture>
-						<picture>
-							<source srcSet={project.webpImage} type="image/webp" />
-							<img
-								className="w-full h-64 sm:h-80 lg:h-96 object-cover"
-								src={project.image}
-								alt={project.title}
-							/>
-						</picture>
-						<picture>
-							<source srcSet={project.webpImage} type="image/webp" />
-							<img
-								className="w-full h-64 sm:h-80 lg:h-96 object-cover"
-								src={project.image}
-								alt={project.title}
-							/>
-						</picture>
-						<picture>
-							<source srcSet={project.webpImage} type="image/webp" />
-							<img
-								className="w-full h-64 sm:h-80 lg:h-96 object-cover"
-								src={project.image}
-								alt={project.title}
-							/>
-						</picture> */}
 					</div>
 				</div>
 				{/* <div className="flex flex-col mt-4 sm:mt-6 pb-24">

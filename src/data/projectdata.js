@@ -23,10 +23,22 @@ import LarrymarkPng03 from "../assets/images/gallery/larrymark_03.png";
 // import Oyinaraoye01Png01 from "../assets/images/gallery/oyin_araoye_01.png";
 // import Oyinaraoye02Jpg02 from "../assets/images/gallery/oyin_araoye_02.jpg";
 // import Oyinaraoye03jpg03 from "../assets/images/gallery/oyin_araoye_03.jpg";
+
 import Oyinaraoye04jpg04 from "../assets/images/gallery/oyin_araoye_04.png";
 import Oyinaraoye05jpg05 from "../assets/images/gallery/oyin_araoye_05.png";
 import Oyinaraoye06jpg06 from "../assets/images/gallery/oyin_araoye_06.png";
 import Oyinaraoye07jpg07 from "../assets/images/jpg/oyin-araoye.jpg";
+
+import Brandguideline13 from "../assets/images/gallery/Brandguidelines_13.jpg";
+import Brandguideline14 from "../assets/images/gallery/Brandguidelines_15.jpg";
+import Brandguideline15 from "../assets/images/gallery/Brandguidelines_17.jpg";
+import Brandguideline16 from "../assets/images/gallery/Brandguidelines_20.jpg";
+import Brandguideline17 from "../assets/images/gallery/Brandguidelines_21.jpg";
+import Brandguideline18 from "../assets/images/gallery/Brandguidelines_27.jpg";
+import Brandguideline19 from "../assets/images/gallery/Brandguidelines_28.jpg";
+import Brandguideline20 from "../assets/images/gallery/Brandguidelines_29.jpg";
+import Brandguideline21 from "../assets/images/gallery/Brandguidelines_30.jpg";
+
 import CoinlertPng01 from "../assets/images/gallery/coinlert_01.jpg";
 import CoinlertPng02 from "../assets/images/gallery/coinlert_02.jpg";
 import CoinlertPng03 from "../assets/images/gallery/coinlert_03.jpg";
@@ -80,10 +92,19 @@ export const projects = [
 		webpImage: OyinAraoyeMockupwebp,
 		jpgImage: OyinAraoyeMockup,
 		images: [
-			Oyinaraoye07jpg07,
-			Oyinaraoye04jpg04,
-			Oyinaraoye05jpg05,
-			Oyinaraoye06jpg06,
+			Brandguideline13,
+			Brandguideline15,
+			Brandguideline14,
+			Brandguideline16,
+			Brandguideline17,
+			Brandguideline18,
+			Brandguideline19,
+			Brandguideline20,
+			Brandguideline21
+			// Oyinaraoye07jpg07,
+			// Oyinaraoye04jpg04,
+			// Oyinaraoye05jpg05,
+			// Oyinaraoye06jpg06,
 		],
 		description:
 			"Luxury fashion brand identity design and marketing collateral.",
