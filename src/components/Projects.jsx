@@ -37,6 +37,7 @@ const Projects = () => {
 						title={projects[1].title}
 						tags={projects[1].tags}
 						description={projects[1].description}
+						links={projects[1].links}
 					/>
 					<Project
 						id={projects[2].id}

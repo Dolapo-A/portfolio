@@ -100,7 +100,7 @@ export const projects = [
 			Brandguideline18,
 			Brandguideline19,
 			Brandguideline20,
-			Brandguideline21
+			Brandguideline21,
 			// Oyinaraoye07jpg07,
 			// Oyinaraoye04jpg04,
 			// Oyinaraoye05jpg05,
@@ -111,7 +111,12 @@ export const projects = [
 		fullDescription:
 			"The Oyin Araoye brand identity project focused on creating a sophisticated and memorable visual language that reflects the designer's unique aesthetic and luxury positioning. The design system encompasses everything from typography and color palettes to packaging design and social media templates. The goal was to create a cohesive brand experience that resonates with high-end fashion consumers while maintaining versatility across different applications.",
 		tags: ["Figma", "Illustrator", "Photoshop"],
-		links: [],
+		links: [
+			{
+				name: "Brand Guideline Presentation",
+				url: "https://www.behance.net/gallery/227544955/Oyin-Araoye",
+			},
+		],
 		challenges:
 			"Creating a visual identity that balanced luxury with accessibility, while ensuring the brand remained distinctive in a crowded fashion market. maintaining consistency across various brand touchpoints was also crucial.",
 		solutions:
