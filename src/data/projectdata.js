@@ -85,7 +85,7 @@ export const projects = [
 
 	{
 		id: "oyin_araoye",
-		title: "Oyin Araoye",
+		title: "Oyin Araoye™",
 		clientName: "Oyin Araoye",
 		ProjectType: "Brand Design",
 		projectYear: "2025",

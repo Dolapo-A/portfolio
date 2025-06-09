@@ -20,7 +20,7 @@ const Projects = () => {
 						Featured projects I’ve worked on{" "}
 					</h2>
 				</div>
-				<div className="lg:grid grid-cols-2 gap-10">
+				<div className="grid lg:grid-cols-2 gap-10">
 					<Project
 						id={projects[0].id}
 						webpImage={projects[0].webpImage}
@@ -70,7 +70,7 @@ const Projects = () => {
 				<div className=" my-10">
 					<h2 className="font-clash-display text-3xl">Side projects</h2>
 				</div>
-				<div className="lg:grid grid-cols-2 gap-10">
+				<div className="grid lg:grid-cols-2 gap-10">
 					<Project
 						id={projects[5].id}
 						webpImage={projects[5].webpImage}
